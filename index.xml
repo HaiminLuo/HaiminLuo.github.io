@@ -33,6 +33,389 @@
     </item>
     
     <item>
+      <title>Artemis: Articulated Neural Pets with Appearance and Motion Synthesis</title>
+      <link>https://HaiminLuo.github.io/publication/example/</link>
+      <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://HaiminLuo.github.io/publication/example/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://HaiminLuo.github.io/publication/example/walkprogressive_noz_0002.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-caption&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;walkprogressive_noz_0002.gif&#34; alt=&#34;A caption&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      A caption
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker_hu469e007c311727abf6da2bb9b4d47128_11601607_480x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;ezgif.com-gif-maker.gif&#34; width=&#34;480&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_480x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 2.gif&#34; width=&#34;480&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_480x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 3.gif&#34; width=&#34;480&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_480x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy.gif&#34; width=&#34;480&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_480x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002.gif&#34; width=&#34;480&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt;
+&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker_hu469e007c311727abf6da2bb9b4d47128_11601607_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;ezgif.com-gif-maker.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 2.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 3.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt; --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Artemis1</title>
+      <link>https://HaiminLuo.github.io/publication/artemis1/</link>
+      <pubDate>Wed, 20 Apr 2022 00:28:42 +0800</pubDate>
+      <guid>https://HaiminLuo.github.io/publication/artemis1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artemis: Articulated Neural Pets with Appearance and Motion Synthesis</title>
+      <link>https://HaiminLuo.github.io/publication/artemis/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://HaiminLuo.github.io/publication/artemis/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+&lt;!-- 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/walkprogressive_noz_0002.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; --&gt;
+&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-caption&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;walkprogressive_noz_0002.gif&#34; alt=&#34;A caption&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      A caption
+    &lt;/figcaption&gt;&lt;/figure&gt; --&gt;
+&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker_hu469e007c311727abf6da2bb9b4d47128_11601607_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;ezgif.com-gif-maker.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 2.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 3.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt; --&gt;
+&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker_hu469e007c311727abf6da2bb9b4d47128_11601607_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;ezgif.com-gif-maker.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 2.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 3.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt; --&gt;</description>
+    </item>
+    
+    <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
       <link>https://HaiminLuo.github.io/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
