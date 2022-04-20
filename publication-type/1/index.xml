@@ -25,7 +25,32 @@
       <link>https://HaiminLuo.github.io/publication/convnerf/</link>
       <pubDate>Sat, 04 Sep 2021 00:28:42 +0800</pubDate>
       <guid>https://HaiminLuo.github.io/publication/convnerf/</guid>
-      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/convnerf/featured_hu72c45eabdeeb158d6e8053aea787965a_11757868_d877f64ad7cdb4bfd258edcfebdb2c25.webp 400w,
+               /publication/convnerf/featured_hu72c45eabdeeb158d6e8053aea787965a_11757868_7c834461984cff73bf55e80fd3b02c27.webp 760w,
+               /publication/convnerf/featured_hu72c45eabdeeb158d6e8053aea787965a_11757868_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://HaiminLuo.github.io/publication/convnerf/featured_hu72c45eabdeeb158d6e8053aea787965a_11757868_d877f64ad7cdb4bfd258edcfebdb2c25.webp&#34;
+               width=&#34;1400&#34;
+               height=&#34;494&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
 &lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/JmMwExABY_0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -49,10 +74,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_a720b0e49db28948fcc67182013536aa.webp 400w,
-               /publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_597efa91b133b258758f8b081e1716f8.webp 760w,
+               /publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_a4d40d63cff600001ad9584ef6d39797.webp 400w,
+               /publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_d48abd1aa8e423fcbba19ba3fe580984.webp 760w,
                /publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://HaiminLuo.github.io/publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_a720b0e49db28948fcc67182013536aa.webp&#34;
+               src=&#34;https://HaiminLuo.github.io/publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_a4d40d63cff600001ad9584ef6d39797.webp&#34;
                width=&#34;1400&#34;
                height=&#34;225&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
