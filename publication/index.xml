@@ -40,20 +40,19 @@
 
 
 
-&lt;figure  id=&#34;figure-a-caption&#34;&gt;
+&lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A caption&#34; srcset=&#34;
-               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_7a79af58a092b7e7c922fb46ad2f99d5.webp 400w,
-               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_97843e4762f07c9f72fd356a2efe876f.webp 760w,
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_4af357cbcd2c337a99b13e7ab749d111.webp 400w,
+               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_d56646d5beec985f86f4ed5570c8c641.webp 760w,
                /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://HaiminLuo.github.io/publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_7a79af58a092b7e7c922fb46ad2f99d5.webp&#34;
-               width=&#34;760&#34;
+               src=&#34;https://HaiminLuo.github.io/publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_4af357cbcd2c337a99b13e7ab749d111.webp&#34;
+               width=&#34;1400&#34;
                height=&#34;229&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      A caption
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h1 id=&#34;result&#34;&gt;result&lt;/h1&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;Given multi-view RGBA images of traditional modeled animals rendered in canonical space, we first extract a sparse voxel grid and allocate a corresponding feature look-up table as a compact representation, together with an octree for quick feature indexing. Then we pose the character to training poses using the rig of the traditional animal asset and conduct efficient volumetric rendering to generate view-dependent appearance feature maps and coarse opacity maps. We next decode them into high quality appearance and opacity images with the convolutional neural shading network. We further adopt an adversarial training scheme for high frequency details synthesis.&lt;/p&gt;
+&lt;h1 id=&#34;results&#34;&gt;Results&lt;/h1&gt;
 &lt;!-- 
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -70,7 +69,8 @@
 
 
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-&lt;p&gt;
+&lt;p&gt;We show our synthesized RGBA results of different neural volumetric animals in representative motions.
+
 
 
 
