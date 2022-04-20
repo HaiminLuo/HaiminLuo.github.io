@@ -247,10 +247,26 @@ Supplementary notes can be added here, including [code, math, and images](https:
     </item>
     
     <item>
+      <title>Few-shot Neural Human Performance Rendering from Sparse RGBD Videos</title>
+      <link>https://HaiminLuo.github.io/publication/fnhr/</link>
+      <pubDate>Tue, 28 Sep 2021 16:40:59 +0800</pubDate>
+      <guid>https://HaiminLuo.github.io/publication/fnhr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Convolutional Neural Opacity Radiance Fields</title>
       <link>https://HaiminLuo.github.io/publication/convnerf/</link>
       <pubDate>Sat, 04 Sep 2021 00:28:42 +0800</pubDate>
       <guid>https://HaiminLuo.github.io/publication/convnerf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gnerf: Gan-based neural radiance field without posed camera</title>
+      <link>https://HaiminLuo.github.io/publication/gnerf/</link>
+      <pubDate>Mon, 16 Aug 2021 16:41:06 +0800</pubDate>
+      <guid>https://HaiminLuo.github.io/publication/gnerf/</guid>
       <description></description>
     </item>
     

@@ -5,7 +5,7 @@
     <link>https://HaiminLuo.github.io/publication-type/1/</link>
       <atom:link href="https://HaiminLuo.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Sep 2021 00:28:42 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Sep 2021 16:40:59 +0800</lastBuildDate>
     <image>
       <url>https://HaiminLuo.github.io/media/icon_hufc8fad64bc5d645be9bad719311346b8_550_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Few-shot Neural Human Performance Rendering from Sparse RGBD Videos</title>
+      <link>https://HaiminLuo.github.io/publication/fnhr/</link>
+      <pubDate>Tue, 28 Sep 2021 16:40:59 +0800</pubDate>
+      <guid>https://HaiminLuo.github.io/publication/fnhr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Convolutional Neural Opacity Radiance Fields</title>
       <link>https://HaiminLuo.github.io/publication/convnerf/</link>
       <pubDate>Sat, 04 Sep 2021 00:28:42 +0800</pubDate>
       <guid>https://HaiminLuo.github.io/publication/convnerf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gnerf: Gan-based neural radiance field without posed camera</title>
+      <link>https://HaiminLuo.github.io/publication/gnerf/</link>
+      <pubDate>Mon, 16 Aug 2021 16:41:06 +0800</pubDate>
+      <guid>https://HaiminLuo.github.io/publication/gnerf/</guid>
       <description></description>
     </item>
     
