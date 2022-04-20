@@ -33,14 +33,6 @@
     </item>
     
     <item>
-      <title>Artemis1</title>
-      <link>https://HaiminLuo.github.io/publication/artemis1/</link>
-      <pubDate>Wed, 20 Apr 2022 00:28:42 +0800</pubDate>
-      <guid>https://HaiminLuo.github.io/publication/artemis1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Artemis: Articulated Neural Pets with Appearance and Motion Synthesis</title>
       <link>https://HaiminLuo.github.io/publication/artemis/</link>
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
@@ -272,6 +264,14 @@ Supplementary notes can be added here, including [code, math, and images](https:
   
 
 &lt;/div&gt; --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Convolutional Neural Opacity Radiance Fields</title>
+      <link>https://HaiminLuo.github.io/publication/convnerf/</link>
+      <pubDate>Sat, 04 Sep 2021 00:28:42 +0800</pubDate>
+      <guid>https://HaiminLuo.github.io/publication/convnerf/</guid>
+      <description></description>
     </item>
     
     <item>
