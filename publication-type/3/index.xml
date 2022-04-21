@@ -243,7 +243,64 @@ Supplementary notes can be added here, including [code, math, and images](https:
     &lt;/a&gt;
   
 
-&lt;/div&gt; --&gt;</description>
+&lt;/div&gt; --&gt;
+&lt;h1 id=&#34;interactive-ngi-animals-in-vr&#34;&gt;Interactive NGI Animals in VR&lt;/h1&gt;
+&lt;p&gt;we exhibit our rendering results in VR applications including different level interactions and different perspectives. First line &amp;lsquo;viewing&amp;rsquo; shows the vivid virtual panda we observed from the third and first view(VR headset), respectively. We can clearly see good fur effects even in VR headsets. Second line &amp;lsquo;Instructions&amp;rsquo; shows the low-level control animation results. We can explicitly drive our neural pets using control signals like &amp;lsquo;Jump&amp;rsquo;,&amp;lsquo;Move&amp;rsquo; and &amp;lsquo;Sit&amp;rsquo;. &amp;lsquo;Commands&amp;rsquo; illustrates our high level control patterns &amp;lsquo;Go to&amp;rsquo;. The user points to a 3D location in virtual space and the wolf reaches the target destination automatically. We can also call back the wolf by waving. Note that the speed of the movement is also controlled by user. In &amp;lsquo;Companion&amp;rsquo;, our virtual pet will follow and accompany the user like a real pet. Finally, &amp;lsquo;Exploring&amp;rsquo; shows our free mode, when no command is given, the animal can take any reasonable movements, exploring the virtual world themselves.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
