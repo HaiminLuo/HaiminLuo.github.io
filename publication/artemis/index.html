@@ -882,7 +882,7 @@
                height="335"
                loading="lazy" data-zoomable /></div>
   </div></figure>
-<h1 id="overview">Overview</h1>
+<h2 id="overview">Overview</h2>
 <p>Given multi-view RGBA images of traditional modeled animals rendered in canonical space, we first extract a sparse voxel grid and allocate a corresponding feature look-up table as a compact representation, together with an octree for quick feature indexing. Then we pose the character to training poses using the rig of the traditional animal asset and conduct efficient volumetric rendering to generate view-dependent appearance feature maps and coarse opacity maps. We next decode them into high quality appearance and opacity images with the convolutional neural shading network. We further adopt an adversarial training scheme for high frequency details synthesis.
 
 
@@ -909,7 +909,7 @@
                height="229"
                loading="lazy" data-zoomable /></div>
   </div></figure></p>
-<h1 id="results">Results</h1>
+<h2 id="results">Results</h2>
 <!-- 
 <div class="alert alert-note">
   <div>
@@ -1109,7 +1109,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
   
 
 </div> -->
-<h1 id="interactive-ngi-animals-in-vr">Interactive NGI Animals in VR</h1>
+<h2 id="interactive-ngi-animals-in-vr">Interactive NGI Animals in VR</h2>
 <p>we exhibit our rendering results in VR applications including different level interactions and different perspectives. First line &lsquo;viewing&rsquo; shows the vivid virtual panda we observed from the third and first view(VR headset), respectively. We can clearly see good fur effects even in VR headsets. Second line &lsquo;Instructions&rsquo; shows the low-level control animation results. We can explicitly drive our neural pets using control signals like &lsquo;Jump&rsquo;,&lsquo;Move&rsquo; and &lsquo;Sit&rsquo;. &lsquo;Commands&rsquo; illustrates our high level control patterns &lsquo;Go to&rsquo;. The user points to a 3D location in virtual space and the wolf reaches the target destination automatically. We can also call back the wolf by waving. Note that the speed of the movement is also controlled by user. In &lsquo;Companion&rsquo;, our virtual pet will follow and accompany the user like a real pet. Finally, &lsquo;Exploring&rsquo; shows our free mode, when no command is given, the animal can take any reasonable movements, exploring the virtual world themselves.</p>
 <p>
 
@@ -1165,12 +1165,36 @@ Supplementary notes can be added here, including [code, math, and images](https:
 <video controls  >
   <source src="/publication/artemis/demo3.mp4" type="video/mp4">
 </video></p>
-<h1 id="acknowledgements">Acknowledgements</h1>
+<h2 id="acknowledgements">Acknowledgements</h2>
 <p>The authors would like to thank Junyu Zhou from DGene
 Digital Technology Co., Ltd. for processing the CGI animals models and motion capture data.
 Besides, we thank Zhenxiao Yu from ShanghaiTech University for producing a supplementary video.</p>
 <p>This work was supported by NSFC programs (61976138, 61977047), the National Key Research and Development Program (2018YFB2100500), STCSM (2015F0203-000-06) and SHMEC (2019-01-07-00-01-E00003).</p>
-<h1 id="citation">Citation</h1>
+<h2 id="citationif-you-find-our-code-or-paper-helps-please-consider-citing">CitationIf you find our code or paper helps, please consider citing:</h2>
+<pre><code>@article{luo2022artemis,
+  title={Artemis: Articulated Neural Pets with Appearance and Motion synthesis},
+  author={Luo, Haimin and Xu, Teng and Jiang, Yuheng and Zhou, Chenglin and Qiu, QIwei and Zhang, Yingliang and Yang, Wei and Xu, Lan and Yu, Jingyi},
+  journal={arXiv preprint arXiv:2202.05628},
+  year={2022}
+}
+</code></pre>
+<p>And also consider cite another related and intresting work, <a href="https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu" target="_blank" rel="noopener">Convolutional Neural Opacity Radiance Fields</a>:</p>
+<pre><code>@INPROCEEDINGS {9466273,
+author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
+booktitle = {2021 IEEE International Conference on Computational Photography (ICCP)},
+title = {Convolutional Neural Opacity Radiance Fields},
+year = {2021},
+volume = {},
+issn = {},
+pages = {1-12},
+keywords = {training;photography;telepresence;image color analysis;computational modeling;entertainment industry;image capture},
+doi = {10.1109/ICCP51581.2021.9466273},
+url = {https://doi.ieeecomputersociety.org/10.1109/ICCP51581.2021.9466273},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {may}
+}
+</code></pre>
 </div>
 
     
