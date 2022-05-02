@@ -799,6 +799,14 @@
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://www.youtube.com/watch?v=YrdsulYTXzA&amp;t=1s" target="_blank" rel="noopener">
+  Video
+</a>
+
 
 
 
@@ -878,7 +886,7 @@
                height="191"
                loading="lazy" data-zoomable /></div>
   </div></figure>
-<h1 id="overview">Overview</h1>
+<h2 id="overview"><strong>Overview</strong></h2>
 <!-- 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/JmMwExABY_0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -910,12 +918,31 @@
                loading="lazy" data-zoomable /></div>
   </div></figure>
 <p>Given multi-view RGBA images, we use an SFS to infer proxy geometric for Efficient Ray Sampling. For each sample point in the volume space, the position and direction are feeding to an MLP based feature prediction network to represent the object at a global level. We next concatenate nearby rays into local feature patches and decoded them into RGB and matte with the convolutional volume renderer. An adversarial training strategy is used on the final output to encourage fine surface details. In the reference period, we render the entire image at once rather than per patch rendering.</p>
-<h1 id="our-results">Our Results</h1>
+<h2 id="our-results"><strong>Our Results</strong></h2>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/YrdsulYTXzA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
+<h2 id="acknowledgements"><strong>Acknowledgements</strong></h2>
+<p>This work was supported by NSFC programs (61976138, 61977047), the National Key Research and Development Program (2018YFB2100500), STCSM (2015F0203-000-06) and SHMEC (2019-01-07-00-01-E00003).</p>
+<h2 id="citation"><strong>Citation</strong></h2>
+<pre><code>@INPROCEEDINGS {9466273,
+author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
+booktitle = {2021 IEEE International Conference on Computational Photography (ICCP)},
+title = {Convolutional Neural Opacity Radiance Fields},
+year = {2021},
+volume = {},
+issn = {},
+pages = {1-12},
+keywords = {training;photography;telepresence;image color analysis;computational modeling;entertainment industry;image capture},
+doi = {10.1109/ICCP51581.2021.9466273},
+url = {https://doi.ieeecomputersociety.org/10.1109/ICCP51581.2021.9466273},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {may}
+}
+</code></pre>
 </div>
 
     
