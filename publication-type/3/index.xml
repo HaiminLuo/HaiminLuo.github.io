@@ -34,10 +34,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_d138c918df1e5ae909004fab0ea3dc64.webp 400w,
+               /publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_2dc4bffafe4dc5db47c7d3480b3ece4e.webp 400w,
                /publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_871e8d6ce31542f371909800f9e0e2bb.webp 760w,
                /publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://HaiminLuo.github.io/publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_d138c918df1e5ae909004fab0ea3dc64.webp&#34;
+               src=&#34;https://HaiminLuo.github.io/publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_2dc4bffafe4dc5db47c7d3480b3ece4e.webp&#34;
                width=&#34;1400&#34;
                height=&#34;335&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -325,6 +325,12 @@ Supplementary notes can be added here, including [code, math, and images](https:
 &lt;video controls  &gt;
   &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo3.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/p&gt;
+&lt;h1 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h1&gt;
+&lt;p&gt;The authors would like to thank Junyu Zhou from DGene
+Digital Technology Co., Ltd. for processing the CGI animals models and motion capture data.
+Besides, we thank Zhenxiao Yu from ShanghaiTech University for producing a supplementary video.&lt;/p&gt;
+&lt;p&gt;This work was supported by NSFC programs (61976138, 61977047), the National Key Research and Development Program (2018YFB2100500), STCSM (2015F0203-000-06) and SHMEC (2019-01-07-00-01-E00003).&lt;/p&gt;
+&lt;h1 id=&#34;citation&#34;&gt;Citation&lt;/h1&gt;
 </description>
     </item>
     
