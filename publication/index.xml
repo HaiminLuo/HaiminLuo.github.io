@@ -339,7 +339,7 @@ Besides, we thank Zhenxiao Yu from ShanghaiTech University for producing a suppl
   year={2022}
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And also consider cite another related and intresting work, &lt;a href=&#34;https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Convolutional Neural Opacity Radiance Fields&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;And also consider citing another related and intresting work, &lt;a href=&#34;https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Convolutional Neural Opacity Radiance Fields&lt;/a&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;@INPROCEEDINGS {9466273,
 author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
 booktitle = {2021 IEEE International Conference on Computational Photography (ICCP)},
