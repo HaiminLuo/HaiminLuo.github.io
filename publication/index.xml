@@ -326,9 +326,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
   &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo3.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/p&gt;
 &lt;h2 id=&#34;acknowledgements&#34;&gt;&lt;strong&gt;Acknowledgements&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;The authors would like to thank Junyu Zhou from DGene
+&lt;p&gt;The authors would like to thank Junyu Zhou and Ya Gao from DGene
 Digital Technology Co., Ltd. for processing the CGI animals models and motion capture data.
-Besides, we thank Zhenxiao Yu from ShanghaiTech University for producing a supplementary video.&lt;/p&gt;
+Besides, we thank Zhenxiao Yu and Heyang Li from ShanghaiTech University for producing a supplementary video and figures.&lt;/p&gt;
 &lt;p&gt;This work was supported by NSFC programs (61976138, 61977047), the National Key Research and Development Program (2018YFB2100500), STCSM (2015F0203-000-06) and SHMEC (2019-01-07-00-01-E00003).&lt;/p&gt;
 &lt;h2 id=&#34;citation&#34;&gt;&lt;strong&gt;Citation&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;If you find our code or paper helps, please consider citing:&lt;/p&gt;
@@ -339,7 +339,7 @@ Besides, we thank Zhenxiao Yu from ShanghaiTech University for producing a suppl
   year={2022}
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And also consider citing another related and intresting work, &lt;a href=&#34;https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Convolutional Neural Opacity Radiance Fields&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;And also consider citing another related and intresting work for high-quality photo-realistic rendering of real fuzzy objects: &lt;a href=&#34;https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Convolutional Neural Opacity Radiance Fields&lt;/a&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;@INPROCEEDINGS {9466273,
 author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
 booktitle = {2021 IEEE International Conference on Computational Photography (ICCP)},
