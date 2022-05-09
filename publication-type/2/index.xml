@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Haimin Luo</title>
+    <link>https://HaiminLuo.github.io/publication-type/2/</link>
+      <atom:link href="https://HaiminLuo.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://HaiminLuo.github.io/media/icon_hufc8fad64bc5d645be9bad719311346b8_550_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>https://HaiminLuo.github.io/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Artemis: Articulated Neural Pets with Appearance and Motion Synthesis</title>
+      <link>https://HaiminLuo.github.io/publication/artemis/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://HaiminLuo.github.io/publication/artemis/</guid>
+      <description>&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_2dc4bffafe4dc5db47c7d3480b3ece4e.webp 400w,
+               /publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_871e8d6ce31542f371909800f9e0e2bb.webp 760w,
+               /publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://HaiminLuo.github.io/publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_2dc4bffafe4dc5db47c7d3480b3ece4e.webp&#34;
+               width=&#34;1400&#34;
+               height=&#34;335&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt; --&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Asbt3BYcZMM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Given multi-view RGBA images of traditional modeled animals rendered in canonical space, we first extract a sparse voxel grid and allocate a corresponding feature look-up table as a compact representation, together with an octree for quick feature indexing. Then we pose the character to training poses using the rig of the traditional animal asset and conduct efficient volumetric rendering to generate view-dependent appearance feature maps and coarse opacity maps. We next decode them into high quality appearance and opacity images with the convolutional neural shading network. We further adopt an adversarial training scheme for high frequency details synthesis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_56dce47d6de9d35e558325bd7fd690b0.webp 400w,
+               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_d56646d5beec985f86f4ed5570c8c641.webp 760w,
+               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://HaiminLuo.github.io/publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_56dce47d6de9d35e558325bd7fd690b0.webp&#34;
+               width=&#34;1400&#34;
+               height=&#34;229&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;&lt;strong&gt;Results&lt;/strong&gt;&lt;/h2&gt;
+&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+&lt;p&gt;We show our synthesized RGBA results of different neural volumetric animals in representative motions.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/lion_cat_tiger.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/wolf_panda_bear.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/dog_duck_fox.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
+&lt;!-- 
+
+&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker_hu469e007c311727abf6da2bb9b4d47128_11601607_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;ezgif.com-gif-maker.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 2.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 3.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt; --&gt;
+&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker_hu469e007c311727abf6da2bb9b4d47128_11601607_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;ezgif.com-gif-maker.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 2.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 3.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002.gif&#34; &gt;
+      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
+    &lt;/a&gt;
+  
+
+&lt;/div&gt; --&gt;
+&lt;h2 id=&#34;interactive-ngi-animals-in-vr&#34;&gt;&lt;strong&gt;Interactive NGI Animals in VR&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;we exhibit our rendering results in VR applications including different level interactions and different perspectives. First line &amp;lsquo;viewing&amp;rsquo; shows the vivid virtual panda we observed from the third and first view(VR headset), respectively. We can clearly see good fur effects even in VR headsets. Second line &amp;lsquo;Instructions&amp;rsquo; shows the low-level control animation results. We can explicitly drive our neural pets using control signals like &amp;lsquo;Jump&amp;rsquo;,&amp;lsquo;Move&amp;rsquo; and &amp;lsquo;Sit&amp;rsquo;. &amp;lsquo;Commands&amp;rsquo; illustrates our high level control patterns &amp;lsquo;Go to&amp;rsquo;. The user points to a 3D location in virtual space and the wolf reaches the target destination automatically. We can also call back the wolf by waving. Note that the speed of the movement is also controlled by user. In &amp;lsquo;Companion&amp;rsquo;, our virtual pet will follow and accompany the user like a real pet. Finally, &amp;lsquo;Exploring&amp;rsquo; shows our free mode, when no command is given, the animal can take any reasonable movements, exploring the virtual world themselves.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
+&lt;h2 id=&#34;acknowledgements&#34;&gt;&lt;strong&gt;Acknowledgements&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The authors would like to thank Junyu Zhou and Ya Gao from DGene
+Digital Technology Co., Ltd. for processing the CGI animals models and motion capture data.
+Besides, we thank Zhenxiao Yu and Heyang Li from ShanghaiTech University for producing a supplementary video and figures.&lt;/p&gt;
+&lt;p&gt;This work was supported by NSFC programs (61976138, 61977047), the National Key Research and Development Program (2018YFB2100500), STCSM (2015F0203-000-06) and SHMEC (2019-01-07-00-01-E00003).&lt;/p&gt;
+&lt;h2 id=&#34;citation&#34;&gt;&lt;strong&gt;Citation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you find our code or paper helps, please consider citing:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;@article{luo2022artemis,
+  title={Artemis: Articulated Neural Pets with Appearance and Motion synthesis},
+  author={Luo, Haimin and Xu, Teng and Jiang, Yuheng and Zhou, Chenglin and Qiu, QIwei and Zhang, Yingliang and Yang, Wei and Xu, Lan and Yu, Jingyi},
+  journal={arXiv preprint arXiv:2202.05628},
+  year={2022}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And also consider citing another related and intresting work for high-quality photo-realistic rendering of real fuzzy objects: &lt;a href=&#34;https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Convolutional Neural Opacity Radiance Fields&lt;/a&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;@INPROCEEDINGS {9466273,
+author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
+booktitle = {2021 IEEE International Conference on Computational Photography (ICCP)},
+title = {Convolutional Neural Opacity Radiance Fields},
+year = {2021},
+volume = {},
+issn = {},
+pages = {1-12},
+keywords = {training;photography;telepresence;image color analysis;computational modeling;entertainment industry;image capture},
+doi = {10.1109/ICCP51581.2021.9466273},
+url = {https://doi.ieeecomputersociety.org/10.1109/ICCP51581.2021.9466273},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {may}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
