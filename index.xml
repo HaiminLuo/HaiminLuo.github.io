@@ -62,7 +62,7 @@
                height=&#34;335&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt; --&gt;
-&lt;table border=&#34;0&#34; align=&#34;center&#34; class=&#34;affiliations&#34; &gt;
+&lt;!-- &lt;table border=&#34;0&#34; align=&#34;center&#34; class=&#34;affiliations&#34; &gt;
     &lt;tbody align=&#34;center&#34;&gt;
       &lt;tr&gt;
         &lt;td style=&#34;text-align: right&#34;&gt;&lt;img src=&#34;sht.svg&#34; height=&#34;140&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
@@ -82,27 +82,10 @@
         &lt;/tr&gt;
       &lt;/tbody&gt;
     &lt;/table&gt; --&gt;
-&lt;!-- &lt;p align=&#34;center&#34;&gt;
-    SIGGRAPH, 2022
-    &lt;br /&gt;
-    &lt;a href=&#34;https://HaiminLuo.github.io&#34;&gt;&lt;strong&gt;Haimin Luo&lt;/strong&gt;&lt;/a&gt;
-    ·
-    &lt;a href=&#34;&#34;&gt;&lt;strong&gt;Teng Xu&lt;/strong&gt;&lt;/a&gt;
-    ·
-    &lt;a href=&#34;&#34;&gt;&lt;strong&gt;Yuheng Jiang&lt;/strong&gt;&lt;/a&gt;
-    ·
-    &lt;a href=&#34;&#34;&gt;&lt;strong&gt;Chenglin Zhou&lt;/strong&gt;&lt;/a&gt;
-    ·
-    &lt;a href=&#34;&#34;&gt;&lt;strong&gt;Qiwei Qiu&lt;/strong&gt;&lt;/a&gt;
-    ·
-    &lt;a href=&#34;&#34;&gt;&lt;strong&gt;Yingliang Zhang&lt;/strong&gt;&lt;/a&gt;
-    ·
-    &lt;a href=&#34;&#34;&gt;&lt;strong&gt;Wei Yang&lt;/strong&gt;&lt;/a&gt;
-    ·
-    &lt;a href=&#34;http://xu-lan.com/&#34;&gt;&lt;strong&gt;Lan Xu&lt;/strong&gt;&lt;/a&gt;
-    ·
-    &lt;a href=&#34;http://www.yu-jingyi.com/cv/&#34;&gt;&lt;strong&gt;Jingyi Yu&lt;/strong&gt;&lt;/a&gt;
-  &lt;/p&gt; --&gt;
+&lt;!-- ![1](sht.svg) | ![2](deemos.png) | ![3](dgene.png) | ![4](hust.svg)
+---|---|---|---
+
+&lt;img src=&#34;deemos.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt; &lt;img src=&#34;deemos.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt; &lt;img src=&#34;deemos.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt; --&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/Asbt3BYcZMM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -393,7 +376,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 &lt;video controls  &gt;
   &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo3.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/p&gt;
-&lt;h2 id=&#34;paper&#34;&gt;&lt;strong&gt;Paper&lt;/strong&gt;&lt;/h2&gt;
+&lt;!-- ## **Paper**
 &lt;p class=&#34;section&#34; id=&#34;paper&#34;&gt;&lt;/p&gt;
           &lt;table width=&#34;940&#34; border=&#34;0&#34;&gt;
             &lt;tbody&gt;
@@ -407,7 +390,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
               &lt;/tr&gt;
             &lt;/tbody&gt;
           &lt;/table&gt;
-&lt;h2 id=&#34;code&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/h2&gt;
+
+## **Code**
+
 &lt;p class=&#34;section&#34; id=&#34;code&#34;&gt;&lt;/p&gt;
           &lt;table border=&#34;0&#34;&gt;
             &lt;tbody&gt;
@@ -419,7 +404,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
                 &lt;/td&gt;
               &lt;/tr&gt;
             &lt;/tbody&gt;
-          &lt;/table&gt;
+          &lt;/table&gt; --&gt;
 &lt;h2 id=&#34;acknowledgements&#34;&gt;&lt;strong&gt;Acknowledgements&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;The authors would like to thank Junyu Zhou and Ya Gao from DGene
 Digital Technology Co., Ltd. for processing the CGI animals models and motion capture data.
