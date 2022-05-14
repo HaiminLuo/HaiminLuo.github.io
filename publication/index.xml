@@ -17,7 +17,12 @@
       <link>https://HaiminLuo.github.io/publication/artemis/</link>
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://HaiminLuo.github.io/publication/artemis/</guid>
-      <description>&lt;!-- 
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;a href=&#34;https://www.shanghaitech.edu.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
 
 
 
@@ -33,39 +38,103 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_2dc4bffafe4dc5db47c7d3480b3ece4e.webp 400w,
-               /publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_871e8d6ce31542f371909800f9e0e2bb.webp 760w,
-               /publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://HaiminLuo.github.io/publication/artemis/featured1_hu270092502231e825143805e3fb559a0a_11509695_2dc4bffafe4dc5db47c7d3480b3ece4e.webp&#34;
-               width=&#34;1400&#34;
-               height=&#34;335&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Foo&#34; srcset=&#34;
+               /publication/artemis/shanghaitech-red_hudc925a2e1458eac5c0057e61ed22e521_15164_2e85f124dc633dfe6d00a957c715faa9.webp 400w,
+               /publication/artemis/shanghaitech-red_hudc925a2e1458eac5c0057e61ed22e521_15164_76d91547dd063294d628179b9fda6d3b.webp 760w,
+               /publication/artemis/shanghaitech-red_hudc925a2e1458eac5c0057e61ed22e521_15164_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://HaiminLuo.github.io/publication/artemis/shanghaitech-red_hudc925a2e1458eac5c0057e61ed22e521_15164_2e85f124dc633dfe6d00a957c715faa9.webp&#34;
+               width=&#34;282&#34;
+               height=&#34;76&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt; --&gt;
-&lt;!-- &lt;table border=&#34;0&#34; align=&#34;center&#34; class=&#34;affiliations&#34; &gt;
-    &lt;tbody align=&#34;center&#34;&gt;
-      &lt;tr&gt;
-        &lt;td style=&#34;text-align: right&#34;&gt;&lt;img src=&#34;sht.svg&#34; height=&#34;140&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-        &lt;td style=&#34;text-align: left&#34;&gt; &lt;a href=&#34;https://www.shanghaitech.edu.cn&#34;&gt;ShanghaiTech University&lt;/a&gt;&lt;/td&gt;
-        &lt;td style=&#34;text-align: right&#34;&gt;&lt;img src=&#34;deemos.png&#34; height=&#34;48&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-        &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.deemos.com/&#34;&gt;Deemos&lt;/a&gt;&lt;/td&gt;
-        &lt;td style=&#34;text-align: right&#34;&gt;&lt;img src=&#34;dgene.png&#34; height=&#34;48&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-        &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.dgene.com/&#34;&gt;DGene&lt;/a&gt;&lt;/td&gt;
-        &lt;td style=&#34;text-align: right&#34;&gt;&lt;img src=&#34;hust.svg&#34; height=&#34;48&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-        &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;http://english.hust.edu.cn/&#34;&gt;Huazhong University of Science and Technology&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;&lt;/table&gt;
-    &lt;!-- &lt;table width=&#34;999&#34; border=&#34;0&#34; align=&#34;center&#34; class=&#34;menu&#34;&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td align=&#34;center&#34;&gt;| &lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt; | &lt;a href=&#34;#video&#34;&gt;Video&lt;/a&gt; | &lt;a href=&#34;#code&#34;&gt;Code&lt;/a&gt; |&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt; --&gt;
-&lt;!-- ![1](sht.svg) | ![2](deemos.png) | ![3](dgene.png) | ![4](hust.svg)
----|---|---|---
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href=&#34;https://www.deemos.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
 
-&lt;img src=&#34;deemos.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt; &lt;img src=&#34;deemos.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt; &lt;img src=&#34;deemos.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt; --&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Foo&#34; srcset=&#34;
+               /publication/artemis/deemos_hube9a1895122d87750d5e4b21cf0a4e06_19269_f754c0ab250c3cf6ddbd7c7f11b2289e.webp 400w,
+               /publication/artemis/deemos_hube9a1895122d87750d5e4b21cf0a4e06_19269_c83e6c0c3e28a47804ac99d492409c23.webp 760w,
+               /publication/artemis/deemos_hube9a1895122d87750d5e4b21cf0a4e06_19269_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://HaiminLuo.github.io/publication/artemis/deemos_hube9a1895122d87750d5e4b21cf0a4e06_19269_f754c0ab250c3cf6ddbd7c7f11b2289e.webp&#34;
+               width=&#34;359&#34;
+               height=&#34;113&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href=&#34;https://www.dgene.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Foo&#34; srcset=&#34;
+               /publication/artemis/dgene_hu5de11df54c3e3d2ab915cc1c07d32c9b_9525_381c43a29981438c0bb9c080d8d08b30.webp 400w,
+               /publication/artemis/dgene_hu5de11df54c3e3d2ab915cc1c07d32c9b_9525_0260316e3302e33fc706e503dd9e6724.webp 760w,
+               /publication/artemis/dgene_hu5de11df54c3e3d2ab915cc1c07d32c9b_9525_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://HaiminLuo.github.io/publication/artemis/dgene_hu5de11df54c3e3d2ab915cc1c07d32c9b_9525_381c43a29981438c0bb9c080d8d08b30.webp&#34;
+               width=&#34;166&#34;
+               height=&#34;57&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href=&#34;http://english.hust.edu.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Foo&#34; srcset=&#34;
+               /publication/artemis/HUST_hu25db895a428aa950b22015b4dcbc87fc_47734_a83fa74c399e5af39b6424a2c8f6c2ba.webp 400w,
+               /publication/artemis/HUST_hu25db895a428aa950b22015b4dcbc87fc_47734_12b7a356949c38df1a894260797536e4.webp 760w,
+               /publication/artemis/HUST_hu25db895a428aa950b22015b4dcbc87fc_47734_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://HaiminLuo.github.io/publication/artemis/HUST_hu25db895a428aa950b22015b4dcbc87fc_47734_a83fa74c399e5af39b6424a2c8f6c2ba.webp&#34;
+               width=&#34;519&#34;
+               height=&#34;118&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/Asbt3BYcZMM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
