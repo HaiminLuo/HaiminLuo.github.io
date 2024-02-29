@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="GaussianHair, a novel explicit hair representation. It enables comprehensive modeling of hair geometry and appearance from images, fostering innovative illumination effects and dynamic animation capabilities.">
+  <meta name="keywords" content="GaussianHair, 3DGS, NR">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NeuralDome: A Neural Modeling Pipeline on Multi-View Human-Object Interactions</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://haiminluo.github.io/">Haimin Luo</a><sup>1,4,</span>
+            <span class="author-block">
+              <a>Min Ouyang</a><sup>1,3,</span>
+            <span class="author-block">
+              <a>Zijun Zhao</a><sup>1,3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://suezjiang.github.io/">Suyi Jiang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://zhanglongwen.com/">Longwen Zhang</a><sup>1,3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://vic.shanghaitech.edu.cn/vrvc/en/people/qixuan-zhang/">Qixuan Zhang</a><sup>1,3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://github.com/weiyang-hust">Wei Yang</a><sup>2</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://www.xu-lan.com/">Lan Xu</a><sup>1</sup>†
+            </span>
+            <span class="author-block">
+              <a href="http://www.yu-jingyi.com/cv/">Jingyi Yu</a><sup>1</sup>†
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>ShanghaiTech University,</span>
+            <span class="author-block"><sup>2</sup>Huazhong University of Science and Technology</span>
+            <span class="author-block"><sup>3</sup>Deemos Technology</span>
+            <span class="author-block"><sup>4</sup>LumiAni Technology</span>
+            <!-- <span class="author-block"><sup>*</sup>These authors contributed equally.</span> -->
+            </div>
+              <span class="author-block"><sup>†</sup>Corresponding author</span>
+            </div>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2402.10483.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2402.10483"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://github.com/HaiminLuo/GaussianHair"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/HaiminLuo/GaussianHair"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://github.com/HaiminLuo/GaussianHair"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <p style="text-align: center;"><img src="featured.jpg" alt="" style="max-width:83%;"></p>
+      <h2 class="subtitle has-text-centered">
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Hairstyle reflects culture and ethnicity at first glance. In the digital era, various realistic human hairstyles are also critical to high-fidelity digital human assets for beauty and inclusivity. Yet, realistic hair modeling and real-time rendering for animation is a formidable challenge due to its sheer number of strands, complicated structures of geometry, and sophisticated interaction with light. This paper presents GaussianHair, a novel explicit hair representation. It enables comprehensive modeling of hair geometry and appearance from images, fostering innovative illumination effects and dynamic animation capabilities. At the heart of GaussianHair is the novel concept of representing each hair strand as a sequence of connected cylindrical 3D Gaussian primitives. This approach not only retains the hair’s geometric structure and appearance but also allows for efficient rasterization onto a 2D image plane, facilitating differentiable volumetric rendering. We further enhance this model with the “GaussianHair Scattering Model”, adept at recreating the slender structure of hair strands and accurately capturing their local diffuse color in uniform lighting. Through extensive experiments, we substantiate that GaussianHair achieves breakthroughs in both geometric and appearance fidelity, transcending the limitations encountered in state-of-the-art methods for hair reconstruction. Beyond representation, GaussianHair extends to support editing, relighting, and dynamic rendering of hair, offering seamless integration with conventional CG pipeline workflows. Complementing these advancements, we have compiled an extensive dataset of real human hair, each with meticulously detailed strand geometry, to propel further research in this field.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video"> -->
+          <!-- <iframe src="https://www.youtube.com/embed/Nb82f5dm2GE"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+          <!-- <video controls style="max-width:100%;">
+              <source src="gaussianhair.mp4" type="video/mp4"> -->
+              <!-- <source src="movie.ogg" type="video/ogg"> -->
+              <!-- Your browser does not support the video tag. -->
+          <!-- </video>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+
+    <!-- Overview. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="container is-max-desktop">
+          <div class="hero-body">
+            <p style="text-align: center;"><img src="overview.png" alt="" style="max-width:100%;"></p>
+            <h2 class="subtitle has-text-centered">
+            </h2>
+          </div>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>
+            Our method employs a multi-stage process for hair modeling. Initially, an off-the-shelf decoder extracts coarse hair
+            strands from multi-view images, which are then refined using differentiable strand-based splatting. This optimization aligns the rendered
+            images with the ground truth. Finally, we apply a scattering model to the optimized strands, enhancing their relighting and dynamics
+            modeling capabilities.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Overview. -->
+
+    <!-- Dataset. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Dataset</h2>
+        <div class="container is-max-desktop">
+          <div class="hero-body">
+            <p style="text-align: center;"><img src="dataset.png" alt="" style="max-width:100%;"></p>
+            <h2 class="subtitle has-text-centered">
+            </h2>
+          </div>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>
+            Our RealHair dataset represents a comprehensive and culturally diverse collection of
+            human hairstyles, encompassing a variety of distinctive styles reflective of global hair characteristics. It comprises 281 high-resolution
+            (4K) videos, totaling approximately 3000 frames, each meticulously annotated with detailed geometry segmentations and individual hair
+            strand information.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Dataset. -->
+
+    <!-- Dataset. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+
+        <div class="container is-max-desktop">
+          <div class="hero-body">
+            <p style="text-align: center;"><img src="editing.png" alt="" style="max-width:100%;"></p>
+            <h2 class="subtitle has-text-centered">
+            </h2>
+          </div>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>
+            <b>Editing results.</b> From left to right: 1. neural rendering results 2. changed lighting 3. roughness adjustment 4. hair cutting 5.
+            base color alteration
+          </p>
+        </div>
+
+        <div class="container is-max-desktop">
+          <div class="hero-body">
+            <p style="text-align: center;"><img src="relight.png" alt="" style="max-width:100%;"></p>
+            <h2 class="subtitle has-text-centered">
+            </h2>
+          </div>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>
+            <b>Relighting.</b> GaussianHair can render photorealistic relighting results with various lighting conditions. Column 1 is the ground
+            truth reference. Columns 2&3 are rendering results under two ordinary composite lighting. Columns 4&5 show results under Cyber style
+            and ”Avatar” style illuminations.
+          </p>
+        </div>
+
+        <div class="container is-max-desktop">
+          <div class="hero-body">
+            <p style="text-align: center;"><img src="dynamic1.png" alt="" style="max-width:100%;"></p>
+            <h2 class="subtitle has-text-centered">
+            </h2>
+          </div>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>
+            <b>Dynamic results.</b> After importing our strand model into a conventional CG rendering engine, the returned animation result is then
+            utilized to animate the rendered hair, simulating the effect of wind blowing.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <!--/ Dataset. -->
+  </div>
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @article{luo2024gaussianhair,
+        title={GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians},
+        author={Luo, Haimin and Ouyang, Min and Zhao, Zijun and Jiang, Suyi and Zhang, Longwen and Zhang, Qixuan and Yang, Wei and Xu, Lan and Yu, Jingyi},
+        journal={arXiv preprint arXiv:2402.10483},
+        year={2024}
+      }
+    </code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
