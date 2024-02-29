@@ -2,22 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Haimin Luo</title>
-    <link>https://HaiminLuo.github.io/publication/</link>
-      <atom:link href="https://HaiminLuo.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication/</link>
+      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 Feb 2024 07:14:24 +0800</lastBuildDate>
     <image>
-      <url>https://HaiminLuo.github.io/media/icon_hufc8fad64bc5d645be9bad719311346b8_550_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hufc8fad64bc5d645be9bad719311346b8_550_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>https://HaiminLuo.github.io/publication/</link>
+      <link>http://localhost:1313/publication/</link>
     </image>
     
     <item>
+      <title>GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians</title>
+      <link>http://localhost:1313/publication/gaussianhair/</link>
+      <pubDate>Fri, 16 Feb 2024 07:14:24 +0800</pubDate>
+      <guid>http://localhost:1313/publication/gaussianhair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MVHuman: Tailoring 2D Diffusion with Multi-view Sampling For Realistic 3D Human Generation</title>
+      <link>http://localhost:1313/publication/mvhuman/</link>
+      <pubDate>Fri, 15 Dec 2023 11:56:26 +0800</pubDate>
+      <guid>http://localhost:1313/publication/mvhuman/</guid>
+      <description>&lt;!-- [Project Page](https://suezjiang.github.io/mvhuman/) --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HumanGen: Generating Human Radiance Fields with Explicit Priors</title>
+      <link>http://localhost:1313/publication/humangen/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/publication/humangen/</guid>
+      <description>&lt;!-- [Project Page](https://suezjiang.github.io/mvhuman/) --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Instant-NVR: Instant Neural Volumetric Rendering for Human-object Interactions from Monocular RGBD Stream</title>
+      <link>http://localhost:1313/publication/instantnvr/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/publication/instantnvr/</guid>
+      <description>&lt;!-- [Project Page](https://suezjiang.github.io/mvhuman/) --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NeuralDome: A Neural Modeling Pipeline on Multi-View Human-Object Interactions</title>
+      <link>http://localhost:1313/publication/neuraldome/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/publication/neuraldome/</guid>
+      <description>&lt;!-- [Project Page](https://suezjiang.github.io/mvhuman/) --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NEPHELE: A Neural Platform for Highly Realistic Cloud Radiance Rendering</title>
+      <link>http://localhost:1313/publication/nephele/</link>
+      <pubDate>Tue, 07 Mar 2023 17:47:33 +0800</pubDate>
+      <guid>http://localhost:1313/publication/nephele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Artemis: Articulated Neural Pets with Appearance and Motion Synthesis</title>
-      <link>https://HaiminLuo.github.io/publication/artemis/</link>
+      <link>http://localhost:1313/publication/artemis/</link>
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://HaiminLuo.github.io/publication/artemis/</guid>
-      <description>&lt;table border=&#34;0&#34; align=&#34;center&#34; class=&#34;affiliations&#34; width=&#34;1000px&#34;&gt;
+      <guid>http://localhost:1313/publication/artemis/</guid>
+      <description>&lt;table border=&#34;0&#34; align=&#34;center&#34; width=&#34;100%&#34; style=&#34;border-collapse: collapse; background-color: transparent;&#34;&gt;
     &lt;tbody align=&#34;center&#34;&gt;
       &lt;tr&gt;
         &lt;td width=&#34;60&#34;&gt;&lt;a href=&#34;https://www.shanghaitech.edu.cn&#34;&gt;&lt;img src=&#34;shanghaitech-red.png&#34; alt=&#34;&#34; height=&#34;50&#34;&gt;&lt;/a&gt;&lt;/td&gt;
@@ -26,8 +78,6 @@
         &lt;td width=&#34;60&#34;&gt;&lt;a href=&#34;http://english.hust.edu.cn/&#34;&gt;&lt;img src=&#34;HUST.png&#34; alt=&#34;&#34; height=&#34;60&#34;&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
     &lt;/tbody&gt;&lt;/table&gt;
-&lt;!-- [![Foo](shanghaitech-red.png)](https://www.shanghaitech.edu.cn) | [![Foo](deemos.png)](https://www.deemos.com/) | [![Foo](dgene.png)](https://www.dgene.com/) | [![Foo](HUST.png)](http://english.hust.edu.cn/)
----|---|---|--- --&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/Asbt3BYcZMM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -51,24 +101,33 @@
 
 
 
+
+
+
+
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_56dce47d6de9d35e558325bd7fd690b0.webp 400w,
-               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_d56646d5beec985f86f4ed5570c8c641.webp 760w,
-               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://HaiminLuo.github.io/publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_56dce47d6de9d35e558325bd7fd690b0.webp&#34;
+               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_f9abc2544b6ed2f00091a3c84a12e930.webp 400w,
+               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_37713b0388c1c248f823efac1965ae3a.webp 760w,
+               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_f9abc2544b6ed2f00091a3c84a12e930.webp&#34;
                width=&#34;1400&#34;
                height=&#34;229&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;results&#34;&gt;&lt;strong&gt;Results&lt;/strong&gt;&lt;/h2&gt;
 &lt;!-- 
+
+
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   &lt;/div&gt;
 &lt;/div&gt;
+
+
 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -89,6 +148,8 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 
+
+
   
 
 
@@ -96,7 +157,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/lion_cat_tiger.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/lion_cat_tiger.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 
 
@@ -107,6 +168,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 
+
+
+
   
 
 
@@ -114,7 +178,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/wolf_panda_bear.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/wolf_panda_bear.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 
 
@@ -125,6 +189,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 
+
+
+
   
 
 
@@ -132,136 +199,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/dog_duck_fox.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;&lt;/p&gt;
-&lt;!-- 
-
-&lt;!-- 
-
-
-
-
-
-
-
-
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-    
-    
-    
-    
-    
-    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker.gif&#34; &gt;
-      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker_hu469e007c311727abf6da2bb9b4d47128_11601607_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;ezgif.com-gif-maker.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
-    &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202.gif&#34; &gt;
-      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 2.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
-    &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203.gif&#34; &gt;
-      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 3.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
-    &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy.gif&#34; &gt;
-      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
-    &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002.gif&#34; &gt;
-      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_500x270_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002.gif&#34; width=&#34;500&#34; height=&#34;270&#34;&gt;
-    &lt;/a&gt;
-  
-
-&lt;/div&gt; --&gt;
-&lt;!-- 
-
-
-
-
-
-
-
-
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-    
-    
-    
-    
-    
-    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker.gif&#34; &gt;
-      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/ezgif.com-gif-maker_hu469e007c311727abf6da2bb9b4d47128_11601607_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;ezgif.com-gif-maker.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
-    &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202.gif&#34; &gt;
-      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%202_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 2.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
-    &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203.gif&#34; &gt;
-      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy%203_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy 3.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
-    &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy.gif&#34; &gt;
-      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002%20copy_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002 copy.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
-    &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-    &lt;a data-fancybox=&#34;gallery-artemis&#34; href=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002.gif&#34; &gt;
-      &lt;img src=&#34;https://HaiminLuo.github.io/media/albums/artemis/walkprogressive_noz_0002_hucf8a8b7388895f172ea9f5f086cc46ae_5995269_0x190_resize_q100_h2_lanczos.webp&#34; loading=&#34;lazy&#34; alt=&#34;walkprogressive_noz_0002.gif&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
-    &lt;/a&gt;
-  
-
-&lt;/div&gt; --&gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/dog_duck_fox.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;interactive-ngi-animals-in-vr&#34;&gt;&lt;strong&gt;Interactive NGI Animals in VR&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;we exhibit our rendering results in VR applications including different level interactions and different perspectives. First line &amp;lsquo;viewing&amp;rsquo; shows the vivid virtual panda we observed from the third and first view(VR headset), respectively. We can clearly see good fur effects even in VR headsets. Second line &amp;lsquo;Instructions&amp;rsquo; shows the low-level control animation results. We can explicitly drive our neural pets using control signals like &amp;lsquo;Jump&amp;rsquo;,&amp;lsquo;Move&amp;rsquo; and &amp;lsquo;Sit&amp;rsquo;. &amp;lsquo;Commands&amp;rsquo; illustrates our high level control patterns &amp;lsquo;Go to&amp;rsquo;. The user points to a 3D location in virtual space and the wolf reaches the target destination automatically. We can also call back the wolf by waving. Note that the speed of the movement is also controlled by user. In &amp;lsquo;Companion&amp;rsquo;, our virtual pet will follow and accompany the user like a real pet. Finally, &amp;lsquo;Exploring&amp;rsquo; shows our free mode, when no command is given, the animal can take any reasonable movements, exploring the virtual world themselves.&lt;/p&gt;
 &lt;p&gt;
@@ -273,6 +213,8 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 
+
+
   
 
 
@@ -280,7 +222,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/demo1.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 
 
@@ -291,6 +233,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 
+
+
+
   
 
 
@@ -298,7 +243,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/demo2.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 
 
@@ -309,6 +254,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 
+
+
+
   
 
 
@@ -316,8 +264,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;https://HaiminLuo.github.io/publication/artemis/demo3.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;&lt;/p&gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/demo3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;/p&gt;
 &lt;!-- ## **Paper**
 &lt;p class=&#34;section&#34; id=&#34;paper&#34;&gt;&lt;/p&gt;
           &lt;table width=&#34;940&#34; border=&#34;0&#34;&gt;
@@ -354,59 +303,61 @@ Besides, we thank Zhenxiao Yu and Heyang Li from ShanghaiTech University for pro
 &lt;p&gt;This work was supported by NSFC programs (61976138, 61977047), the National Key Research and Development Program (2018YFB2100500), STCSM (2015F0203-000-06) and SHMEC (2019-01-07-00-01-E00003).&lt;/p&gt;
 &lt;h2 id=&#34;citation&#34;&gt;&lt;strong&gt;Citation&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;If you find our code or paper helps, please consider citing:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;@article{10.1145/3528223.3530086,
-author = {Luo, Haimin and Xu, Teng and Jiang, Yuheng and Zhou, Chenglin and Qiu, Qiwei and Zhang, Yingliang and Yang, Wei and Xu, Lan and Yu, Jingyi},
-title = {Artemis: Articulated Neural Pets with Appearance and Motion Synthesis},
-year = {2022},
-issue_date = {July 2022},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-volume = {41},
-number = {4},
-issn = {0730-0301},
-url = {https://doi.org/10.1145/3528223.3530086},
-doi = {10.1145/3528223.3530086},
-journal = {ACM Trans. Graph.},
-month = {jul},
-articleno = {164},
-numpages = {19},
-keywords = {novel view syntheis, neural rendering, dynamic scene modeling, neural volumetric animal, motion synthesis, neural representation}
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And also consider citing another related and intresting work for high-quality photo-realistic rendering of real fuzzy objects: &lt;a href=&#34;https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Convolutional Neural Opacity Radiance Fields&lt;/a&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;@INPROCEEDINGS {9466273,
-author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
-booktitle = {2021 IEEE International Conference on Computational Photography (ICCP)},
-title = {Convolutional Neural Opacity Radiance Fields},
-year = {2021},
-volume = {},
-issn = {},
-pages = {1-12},
-keywords = {training;photography;telepresence;image color analysis;computational modeling;entertainment industry;image capture},
-doi = {10.1109/ICCP51581.2021.9466273},
-url = {https://doi.ieeecomputersociety.org/10.1109/ICCP51581.2021.9466273},
-publisher = {IEEE Computer Society},
-address = {Los Alamitos, CA, USA},
-month = {may}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@article{10.1145/3528223.3530086,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;author = {Luo, Haimin and Xu, Teng and Jiang, Yuheng and Zhou, Chenglin and Qiu, Qiwei and Zhang, Yingliang and Yang, Wei and Xu, Lan and Yu, Jingyi},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title = {Artemis: Articulated Neural Pets with Appearance and Motion Synthesis},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;year = {2022},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;issue_date = {July 2022},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;publisher = {Association for Computing Machinery},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;address = {New York, NY, USA},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;volume = {41},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;number = {4},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;issn = {0730-0301},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;url = {https://doi.org/10.1145/3528223.3530086},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;doi = {10.1145/3528223.3530086},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;journal = {ACM Trans. Graph.},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;month = {jul},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;articleno = {164},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;numpages = {19},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;keywords = {novel view syntheis, neural rendering, dynamic scene modeling, neural volumetric animal, motion synthesis, neural representation}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And also consider citing another related and intresting work for high-quality photo-realistic rendering of real fuzzy objects: &lt;a href=&#34;https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Convolutional Neural Opacity Radiance Fields&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@INPROCEEDINGS {9466273,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;booktitle = {2021 IEEE International Conference on Computational Photography (ICCP)},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title = {Convolutional Neural Opacity Radiance Fields},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;year = {2021},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;volume = {},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;issn = {},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pages = {1-12},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;keywords = {training;photography;telepresence;image color analysis;computational modeling;entertainment industry;image capture},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;doi = {10.1109/ICCP51581.2021.9466273},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;url = {https://doi.ieeecomputersociety.org/10.1109/ICCP51581.2021.9466273},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;publisher = {IEEE Computer Society},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;address = {Los Alamitos, CA, USA},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;month = {may}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Few-shot Neural Human Performance Rendering from Sparse RGBD Videos</title>
-      <link>https://HaiminLuo.github.io/publication/fnhr/</link>
+      <link>http://localhost:1313/publication/fnhr/</link>
       <pubDate>Tue, 28 Sep 2021 16:40:59 +0800</pubDate>
-      <guid>https://HaiminLuo.github.io/publication/fnhr/</guid>
+      <guid>http://localhost:1313/publication/fnhr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Convolutional Neural Opacity Radiance Fields</title>
-      <link>https://HaiminLuo.github.io/publication/convnerf/</link>
+      <link>http://localhost:1313/publication/convnerf/</link>
       <pubDate>Sat, 04 Sep 2021 00:28:42 +0800</pubDate>
-      <guid>https://HaiminLuo.github.io/publication/convnerf/</guid>
+      <guid>http://localhost:1313/publication/convnerf/</guid>
       <description>
+
+
+
+
 
 
 
@@ -423,14 +374,15 @@ month = {may}
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/convnerf/teaser_hua3575216754f9e9e263983983eed7122_2428439_63e15cbd12ea2b1c3d1a380cdbb78152.webp 400w,
-               /publication/convnerf/teaser_hua3575216754f9e9e263983983eed7122_2428439_bb935118458dac688a7a09d20ccd5bb3.webp 760w,
-               /publication/convnerf/teaser_hua3575216754f9e9e263983983eed7122_2428439_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://HaiminLuo.github.io/publication/convnerf/teaser_hua3575216754f9e9e263983983eed7122_2428439_63e15cbd12ea2b1c3d1a380cdbb78152.webp&#34;
+               /publication/convnerf/teaser_hua3575216754f9e9e263983983eed7122_2428439_f42c39fd50f8331cebe71f1d84044364.webp 400w,
+               /publication/convnerf/teaser_hua3575216754f9e9e263983983eed7122_2428439_fb70380270e5e3eb7e2c0a76a896dbb8.webp 760w,
+               /publication/convnerf/teaser_hua3575216754f9e9e263983983eed7122_2428439_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/publication/convnerf/teaser_hua3575216754f9e9e263983983eed7122_2428439_f42c39fd50f8331cebe71f1d84044364.webp&#34;
                width=&#34;1400&#34;
                height=&#34;191&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
+
 &lt;h2 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h2&gt;
 &lt;!-- 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -451,17 +403,22 @@ month = {may}
 
 
 
+
+
+
+
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_418284b7c7574dbc372639f8a425cd4c.webp 400w,
-               /publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_d48abd1aa8e423fcbba19ba3fe580984.webp 760w,
-               /publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://HaiminLuo.github.io/publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_418284b7c7574dbc372639f8a425cd4c.webp&#34;
+               /publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_fdde791ee5ee4e2b1c2c63fce7dc01a6.webp 400w,
+               /publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_080f1247ee0e88c1c121dcd20b2b8de6.webp 760w,
+               /publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/publication/convnerf/pipeline_hu12c7ef6c0cc8d08414f4b3a0f0b29ad3_260898_fdde791ee5ee4e2b1c2c63fce7dc01a6.webp&#34;
                width=&#34;1400&#34;
                height=&#34;225&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
+
 &lt;p&gt;Given multi-view RGBA images, we use an SFS to infer proxy geometric for Efficient Ray Sampling. For each sample point in the volume space, the position and direction are feeding to an MLP based feature prediction network to represent the object at a global level. We next concatenate nearby rays into local feature patches and decoded them into RGB and matte with the convolutional volume renderer. An adversarial training strategy is used on the final output to encourage fine surface details. In the reference period, we render the entire image at once rather than per patch rendering.&lt;/p&gt;
 &lt;h2 id=&#34;our-results&#34;&gt;&lt;strong&gt;Our Results&lt;/strong&gt;&lt;/h2&gt;
 
@@ -472,30 +429,29 @@ month = {may}
 &lt;h2 id=&#34;acknowledgements&#34;&gt;&lt;strong&gt;Acknowledgements&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;This work was supported by NSFC programs (61976138, 61977047), the National Key Research and Development Program (2018YFB2100500), STCSM (2015F0203-000-06) and SHMEC (2019-01-07-00-01-E00003).&lt;/p&gt;
 &lt;h2 id=&#34;citation&#34;&gt;&lt;strong&gt;Citation&lt;/strong&gt;&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;@INPROCEEDINGS {9466273,
-author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
-booktitle = {2021 IEEE International Conference on Computational Photography (ICCP)},
-title = {Convolutional Neural Opacity Radiance Fields},
-year = {2021},
-volume = {},
-issn = {},
-pages = {1-12},
-keywords = {training;photography;telepresence;image color analysis;computational modeling;entertainment industry;image capture},
-doi = {10.1109/ICCP51581.2021.9466273},
-url = {https://doi.ieeecomputersociety.org/10.1109/ICCP51581.2021.9466273},
-publisher = {IEEE Computer Society},
-address = {Los Alamitos, CA, USA},
-month = {may}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@INPROCEEDINGS {9466273,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;booktitle = {2021 IEEE International Conference on Computational Photography (ICCP)},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title = {Convolutional Neural Opacity Radiance Fields},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;year = {2021},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;volume = {},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;issn = {},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pages = {1-12},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;keywords = {training;photography;telepresence;image color analysis;computational modeling;entertainment industry;image capture},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;doi = {10.1109/ICCP51581.2021.9466273},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;url = {https://doi.ieeecomputersociety.org/10.1109/ICCP51581.2021.9466273},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;publisher = {IEEE Computer Society},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;address = {Los Alamitos, CA, USA},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;month = {may}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Gnerf: Gan-based neural radiance field without posed camera</title>
-      <link>https://HaiminLuo.github.io/publication/gnerf/</link>
+      <link>http://localhost:1313/publication/gnerf/</link>
       <pubDate>Mon, 16 Aug 2021 16:41:06 +0800</pubDate>
-      <guid>https://HaiminLuo.github.io/publication/gnerf/</guid>
+      <guid>http://localhost:1313/publication/gnerf/</guid>
       <description></description>
     </item>
     

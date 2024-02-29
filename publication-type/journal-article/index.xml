@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal Article | Haimin Luo</title>
+    <link>http://localhost:1313/publication-type/journal-article/</link>
+      <atom:link href="http://localhost:1313/publication-type/journal-article/index.xml" rel="self" type="application/rss+xml" />
+    <description>Journal Article</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hufc8fad64bc5d645be9bad719311346b8_550_512x512_fill_lanczos_center_3.png</url>
+      <title>Journal Article</title>
+      <link>http://localhost:1313/publication-type/journal-article/</link>
+    </image>
+    
+    <item>
+      <title>Artemis: Articulated Neural Pets with Appearance and Motion Synthesis</title>
+      <link>http://localhost:1313/publication/artemis/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/artemis/</guid>
+      <description>&lt;table border=&#34;0&#34; align=&#34;center&#34; class=&#34;affiliations&#34; width=&#34;1000px&#34;&gt;
+    &lt;tbody align=&#34;center&#34;&gt;
+      &lt;tr&gt;
+        &lt;td width=&#34;60&#34;&gt;&lt;a href=&#34;https://www.shanghaitech.edu.cn&#34;&gt;&lt;img src=&#34;shanghaitech-red.png&#34; alt=&#34;&#34; height=&#34;50&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;td width=&#34;60&#34;&gt;&lt;a href=&#34;https://www.deemos.com/&#34;&gt;&lt;img src=&#34;deemos.png&#34; alt=&#34;&#34; height=&#34;50&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;td width=&#34;60&#34;&gt;&lt;a href=&#34;https://www.dgene.com/&#34;&gt;&lt;img src=&#34;dgene.png&#34; alt=&#34;&#34; height=&#34;50&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;td width=&#34;60&#34;&gt;&lt;a href=&#34;http://english.hust.edu.cn/&#34;&gt;&lt;img src=&#34;HUST.png&#34; alt=&#34;&#34; height=&#34;60&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;&lt;/table&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Asbt3BYcZMM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;We human are entering into a virtual era, and surely want to bring animals to virtual world as well for companion. Human are entering into a virtual era, while our companions, i.e., animals, are left bind. Yet, computer-generated (CGI) furry animals is limited by tedious off-line rendering, let alone interactive motion control. Computer-generated (CGI) furry animals is limited by tedious off-line rendering, and hence impractical for interactive motion control. In this paper, we present ARTEMIS, a novel neural modeling and rendering pipeline for generating ARTiculated neural pets with appEarance and Motion synthesIS. Our ARTEMIS enables interactive motion control, real-time animation and photo-realistic rendering of furry animals. The core of our ARTEMIS is a neural-generated (NGI) animal engine, which adopts an efficient octree based representation for animal animation and fur rendering. The animation then becomes equivalent to voxel level deformation based on explicit skeletal warping. We further use a fast octree indexing an efficient volumetric rendering scheme to generate appearance and density features maps. Finally, we propose a novel shading network to generate high-fidelity details of appearance and opacity under novel poses from appearance and density feature maps. For the motion control module in ARTEMIS, we combines state-of-the-art animal motion capture approach with recent neural character control scheme. We introduce an effective optimization scheme to reconstruct skeletal motion of real animals captured by a multi-view RGB and Vicon camera array. We feed all the captured motion into a neural character control scheme to generate abstract control signals with motion styles. We further integrate ARTEMIS into existing engines that support VR headsets, providing an unprecedented immersive experience where a user can intimately interact with a variety of virtual animals with vivid movements and photo-realistic appearance. Extensive experiments and showcases demonstrate the effectiveness of our ARTEMIS system to achieve highly realistic rendering of NGI animals in real-time, providing daily immersive and interactive experience with digital animals unseen before.&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Given multi-view RGBA images of traditional modeled animals rendered in canonical space, we first extract a sparse voxel grid and allocate a corresponding feature look-up table as a compact representation, together with an octree for quick feature indexing. Then we pose the character to training poses using the rig of the traditional animal asset and conduct efficient volumetric rendering to generate view-dependent appearance feature maps and coarse opacity maps. We next decode them into high quality appearance and opacity images with the convolutional neural shading network. We further adopt an adversarial training scheme for high frequency details synthesis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_f9abc2544b6ed2f00091a3c84a12e930.webp 400w,
+               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_37713b0388c1c248f823efac1965ae3a.webp 760w,
+               /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_f9abc2544b6ed2f00091a3c84a12e930.webp&#34;
+               width=&#34;1400&#34;
+               height=&#34;229&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;&lt;strong&gt;Results&lt;/strong&gt;&lt;/h2&gt;
+&lt;!-- 
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+&lt;p&gt;We show our synthesized RGBA results of different neural volumetric animals in representative motions.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/lion_cat_tiger.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/wolf_panda_bear.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/dog_duck_fox.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;interactive-ngi-animals-in-vr&#34;&gt;&lt;strong&gt;Interactive NGI Animals in VR&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;we exhibit our rendering results in VR applications including different level interactions and different perspectives. First line &amp;lsquo;viewing&amp;rsquo; shows the vivid virtual panda we observed from the third and first view(VR headset), respectively. We can clearly see good fur effects even in VR headsets. Second line &amp;lsquo;Instructions&amp;rsquo; shows the low-level control animation results. We can explicitly drive our neural pets using control signals like &amp;lsquo;Jump&amp;rsquo;,&amp;lsquo;Move&amp;rsquo; and &amp;lsquo;Sit&amp;rsquo;. &amp;lsquo;Commands&amp;rsquo; illustrates our high level control patterns &amp;lsquo;Go to&amp;rsquo;. The user points to a 3D location in virtual space and the wolf reaches the target destination automatically. We can also call back the wolf by waving. Note that the speed of the movement is also controlled by user. In &amp;lsquo;Companion&amp;rsquo;, our virtual pet will follow and accompany the user like a real pet. Finally, &amp;lsquo;Exploring&amp;rsquo; shows our free mode, when no command is given, the animal can take any reasonable movements, exploring the virtual world themselves.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/demo1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/demo2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;http://localhost:1313/publication/artemis/demo3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;/p&gt;
+&lt;!-- ## **Paper**
+&lt;p class=&#34;section&#34; id=&#34;paper&#34;&gt;&lt;/p&gt;
+          &lt;table width=&#34;940&#34; border=&#34;0&#34;&gt;
+            &lt;tbody&gt;
+              &lt;tr&gt;
+                &lt;td height=&#34;100&#34;&gt;&lt;a href=&#34;https://arxiv.org/abs/2202.05628&#34;&gt;&lt;img src=&#34;./pdf_preview.png&#34; alt=&#34;&#34; width=&#34;80&#34; height=&#34;180&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+                &lt;td width=&#34;750&#34;&gt;&lt;p&gt;&lt;b&gt;Artemis: Articulated Neural Pets with Appearance and Motion Synthesis&lt;/b&gt;&lt;br&gt;
+                  Haimin Luo, Teng Xu, Yuheng Jiang, Chenglin Zhou, Qiwei Qiu, Yingliang Zhang, Wei Yang, Lan Xu, Jingyi Yu&lt;br&gt;
+                  &lt;em&gt; ACM Transactions on Graphics (Proc. of SIGGRAPH 2022).&lt;/em&gt;&lt;br&gt;&lt;br&gt;
+                  [&lt;a href=&#34;https://arxiv.org/abs/2202.05628&#34;&gt;paper&lt;/a&gt;]&lt;/p&gt;
+                &lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/tbody&gt;
+          &lt;/table&gt;
+
+## **Code**
+
+&lt;p class=&#34;section&#34; id=&#34;code&#34;&gt;&lt;/p&gt;
+          &lt;table border=&#34;0&#34;&gt;
+            &lt;tbody&gt;
+              &lt;tr&gt;
+                &lt;td width=&#34;80&#34;&gt;&lt;a href=&#34;https://github.com/HaiminLuo/Artemis&#34;&gt;&lt;img src=&#34;github_logo.png&#34; alt=&#34;&#34; height=&#34;50&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+                &lt;td align=&#34;left&#34;&gt;
+                  We will make available our models and dynamic animal datasets for further research.
+                  &lt;p&gt;[&lt;a href=&#34;https://github.com/HaiminLuo/Artemis&#34;&gt;code&lt;/a&gt;]&lt;/p&gt;  
+                &lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/tbody&gt;
+          &lt;/table&gt; --&gt;
+&lt;h2 id=&#34;acknowledgements&#34;&gt;&lt;strong&gt;Acknowledgements&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The authors would like to thank Junyu Zhou and Ya Gao from DGene
+Digital Technology Co., Ltd. for processing the CGI animals models and motion capture data.
+Besides, we thank Zhenxiao Yu and Heyang Li from ShanghaiTech University for producing a supplementary video and figures.&lt;/p&gt;
+&lt;p&gt;This work was supported by NSFC programs (61976138, 61977047), the National Key Research and Development Program (2018YFB2100500), STCSM (2015F0203-000-06) and SHMEC (2019-01-07-00-01-E00003).&lt;/p&gt;
+&lt;h2 id=&#34;citation&#34;&gt;&lt;strong&gt;Citation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;If you find our code or paper helps, please consider citing:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@article{10.1145/3528223.3530086,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;author = {Luo, Haimin and Xu, Teng and Jiang, Yuheng and Zhou, Chenglin and Qiu, Qiwei and Zhang, Yingliang and Yang, Wei and Xu, Lan and Yu, Jingyi},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title = {Artemis: Articulated Neural Pets with Appearance and Motion Synthesis},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;year = {2022},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;issue_date = {July 2022},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;publisher = {Association for Computing Machinery},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;address = {New York, NY, USA},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;volume = {41},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;number = {4},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;issn = {0730-0301},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;url = {https://doi.org/10.1145/3528223.3530086},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;doi = {10.1145/3528223.3530086},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;journal = {ACM Trans. Graph.},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;month = {jul},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;articleno = {164},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;numpages = {19},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;keywords = {novel view syntheis, neural rendering, dynamic scene modeling, neural volumetric animal, motion synthesis, neural representation}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And also consider citing another related and intresting work for high-quality photo-realistic rendering of real fuzzy objects: &lt;a href=&#34;https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Convolutional Neural Opacity Radiance Fields&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@INPROCEEDINGS {9466273,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;booktitle = {2021 IEEE International Conference on Computational Photography (ICCP)},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title = {Convolutional Neural Opacity Radiance Fields},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;year = {2021},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;volume = {},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;issn = {},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pages = {1-12},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;keywords = {training;photography;telepresence;image color analysis;computational modeling;entertainment industry;image capture},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;doi = {10.1109/ICCP51581.2021.9466273},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;url = {https://doi.ieeecomputersociety.org/10.1109/ICCP51581.2021.9466273},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;publisher = {IEEE Computer Society},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;address = {Los Alamitos, CA, USA},
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;month = {may}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preprint | Haimin Luo</title>
+    <link>http://localhost:1313/publication-type/preprint/</link>
+      <atom:link href="http://localhost:1313/publication-type/preprint/index.xml" rel="self" type="application/rss+xml" />
+    <description>Preprint</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 Feb 2024 07:14:24 +0800</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hufc8fad64bc5d645be9bad719311346b8_550_512x512_fill_lanczos_center_3.png</url>
+      <title>Preprint</title>
+      <link>http://localhost:1313/publication-type/preprint/</link>
+    </image>
+    
+    <item>
+      <title>GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians</title>
+      <link>http://localhost:1313/publication/gaussianhair/</link>
+      <pubDate>Fri, 16 Feb 2024 07:14:24 +0800</pubDate>
+      <guid>http://localhost:1313/publication/gaussianhair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NEPHELE: A Neural Platform for Highly Realistic Cloud Radiance Rendering</title>
+      <link>http://localhost:1313/publication/nephele/</link>
+      <pubDate>Tue, 07 Mar 2023 17:47:33 +0800</pubDate>
+      <guid>http://localhost:1313/publication/nephele/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

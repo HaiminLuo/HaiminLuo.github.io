@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arxiv | Haimin Luo</title>
+    <link>http://localhost:1313/publication-type/arxiv/</link>
+      <atom:link href="http://localhost:1313/publication-type/arxiv/index.xml" rel="self" type="application/rss+xml" />
+    <description>Arxiv</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 Feb 2024 16:41:06 +0800</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hufc8fad64bc5d645be9bad719311346b8_550_512x512_fill_lanczos_center_3.png</url>
+      <title>Arxiv</title>
+      <link>http://localhost:1313/publication-type/arxiv/</link>
+    </image>
+    
+    <item>
+      <title>GaussianHair: Hair Modeling and Rendering with Light-aware Gaussians</title>
+      <link>http://localhost:1313/publication/gaussianhair/</link>
+      <pubDate>Fri, 16 Feb 2024 16:41:06 +0800</pubDate>
+      <guid>http://localhost:1313/publication/gaussianhair/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
