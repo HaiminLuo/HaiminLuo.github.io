@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Convolutional Neural Opacity Radiance Fields is a neural rendering framework for fuzzy objects that enables globally consistent appearance and opacity synthesis in novel views.">
+  <meta name="keywords" content="ConvNeRF, neural rendering, opacity radiance fields, fuzzy objects">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Convolutional Neural Opacity Radiance Fields</title>
+  <link rel="canonical" href="https://haiminluo.github.io/convnerf/" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Convolutional Neural Opacity Radiance Fields" />
+  <meta property="og:description" content="Convolutional Neural Opacity Radiance Fields is a neural rendering framework for fuzzy objects that enables globally consistent appearance and opacity synthesis in novel views." />
+  <meta property="og:url" content="https://haiminluo.github.io/convnerf/" />
+  <meta property="og:image" content="https://haiminluo.github.io/publication/convnerf/teaser.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Convolutional Neural Opacity Radiance Fields" />
+  <meta name="twitter:description" content="A neural rendering framework for fuzzy objects with globally consistent appearance and opacity synthesis in novel views." />
+  <meta name="twitter:image" content="https://haiminluo.github.io/publication/convnerf/teaser.png" />
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+
+  <style>
+    .container.is-max-desktop {
+      max-width: 1400px !important;
+    }
+
+    .page-column {
+      width: 100%;
+      max-width: 1260px;
+      flex: none;
+    }
+
+    .publication-venue {
+      width: 100%;
+      text-align: center;
+      margin: 0.8rem auto 0;
+    }
+
+    .teaser-figure img {
+      display: block;
+      width: 100%;
+      max-width: 1220px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Convolutional Neural Opacity Radiance Fields</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://haiminluo.github.io/">Haimin Luo</a>,
+            </span>
+            <span class="author-block">Anpei Chen,</span>
+            <span class="author-block">Qixuan Zhang,</span>
+            <span class="author-block">Bai Pang,</span>
+            <span class="author-block">Minye Wu,</span>
+            <span class="author-block">Lan Xu,</span>
+            <span class="author-block">Jingyi Yu</span>
+          </div>
+
+          <div class="publication-venue is-size-5">
+            2021 IEEE International Conference on Computational Photography (ICCP 2021)
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="../publication/convnerf/cite.bib"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-quote-right"></i>
+                  </span>
+                  <span>Cite</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/HaiminLuo/ConvNeRF"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/HaiminLuo/ConvNeRF"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-database"></i>
+                  </span>
+                  <span>Dataset</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=YrdsulYTXzA&t=1s"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <figure class="teaser-figure">
+        <img src="../publication/convnerf/teaser.png" alt="ConvNeRF teaser">
+      </figure>
+      <h2 class="subtitle has-text-centered"></h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Photo-realistic modeling and rendering of fuzzy objects with complex opacity is critical for many immersive VR and AR applications,
+            yet remains challenging because of strong view-dependent brightness and color variation.
+            We propose Convolutional Neural Opacity Radiance Fields, a scheme that combines explicit opacity supervision with convolutional decoding
+            in the neural radiance field framework to generate globally consistent appearance and alpha mattes in arbitrary novel views.
+            Our method introduces efficient sampling along both camera rays and the image plane, volumetric feature integration for per-patch hybrid
+            embeddings, and a patch-wise adversarial training strategy to preserve high-frequency appearance and opacity details in a self-supervised setting.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Overview</h2>
+        <div class="container is-max-desktop">
+          <div class="hero-body">
+            <p style="text-align: center;"><img src="../publication/convnerf/pipeline.png" alt="ConvNeRF pipeline" style="max-width:100%;"></p>
+            <h2 class="subtitle has-text-centered"></h2>
+          </div>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>
+            Given multi-view RGBA images, we first use shape-from-silhouette to infer proxy geometry for efficient ray sampling.
+            For each sample point in volume space, position and viewing direction are fed to an MLP-based feature prediction network
+            to model the object globally. We then concatenate nearby rays into local feature patches and decode them into RGB and matte
+            with a convolutional volume renderer. Finally, an adversarial training strategy on the rendered output encourages faithful
+            fine-scale surface and opacity details.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Results</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/YrdsulYTXzA"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Acknowledgements</h2>
+        <div class="content has-text-justified">
+          <p>
+            This work was supported by NSFC programs (61976138, 61977047), the National Key Research and Development Program (2018YFB2100500),
+            STCSM (2015F0203-000-06), and SHMEC (2019-01-07-00-01-E00003).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@INPROCEEDINGS {9466273,
+  author = {H. Luo and A. Chen and Q. Zhang and B. Pang and M. Wu and L. Xu and J. Yu},
+  booktitle = {2021 IEEE International Conference on Computational Photography (ICCP)},
+  title = {Convolutional Neural Opacity Radiance Fields},
+  year = {2021},
+  volume = {},
+  issn = {},
+  pages = {1-12},
+  keywords = {training; photography; telepresence; image color analysis; computational modeling; entertainment industry; image capture},
+  doi = {10.1109/ICCP51581.2021.9466273},
+  url = {https://doi.ieeecomputersociety.org/10.1109/ICCP51581.2021.9466273},
+  publisher = {IEEE Computer Society},
+  address = {Los Alamitos, CA, USA},
+  month = {may}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://www.computer.org/csdl/proceedings-article/iccp/2021/09466273/1uSSXDOinlu" target="_blank" rel="noreferrer">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/HaiminLuo/ConvNeRF" target="_blank" rel="noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is adapted from the GaussianHair project page template and uses media assets from
+            <a href="../publication/convnerf/">the ConvNeRF publication page</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

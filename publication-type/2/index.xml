@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Haimin Luo</title>
-    <link>http://localhost:1313/publication-type/2/</link>
-      <atom:link href="http://localhost:1313/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://haiminluo.github.io/publication-type/2/</link>
+      <atom:link href="https://haiminluo.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hufc8fad64bc5d645be9bad719311346b8_550_512x512_fill_lanczos_center_3.png</url>
+      <url>https://haiminluo.github.io/media/icon_hufc8fad64bc5d645be9bad719311346b8_550_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
-      <link>http://localhost:1313/publication-type/2/</link>
+      <link>https://haiminluo.github.io/publication-type/2/</link>
     </image>
     
     <item>
       <title>Artemis: Articulated Neural Pets with Appearance and Motion Synthesis</title>
-      <link>http://localhost:1313/publication/artemis/</link>
+      <link>https://haiminluo.github.io/publication/artemis/</link>
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/artemis/</guid>
+      <guid>https://haiminluo.github.io/publication/artemis/</guid>
       <description>&lt;table border=&#34;0&#34; align=&#34;center&#34; class=&#34;affiliations&#34; width=&#34;1000px&#34;&gt;
     &lt;tbody align=&#34;center&#34;&gt;
       &lt;tr&gt;
@@ -59,7 +59,7 @@
                /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_f9abc2544b6ed2f00091a3c84a12e930.webp 400w,
                /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_37713b0388c1c248f823efac1965ae3a.webp 760w,
                /publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_f9abc2544b6ed2f00091a3c84a12e930.webp&#34;
+               src=&#34;https://haiminluo.github.io/publication/artemis/overview_v3-1_hua79e4bb36f903180b62941c9ff0bc593_2756571_f9abc2544b6ed2f00091a3c84a12e930.webp&#34;
                width=&#34;1400&#34;
                height=&#34;229&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -105,7 +105,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/publication/artemis/lion_cat_tiger.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://haiminluo.github.io/publication/artemis/lion_cat_tiger.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 
 
@@ -126,7 +126,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/publication/artemis/wolf_panda_bear.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://haiminluo.github.io/publication/artemis/wolf_panda_bear.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 
 
@@ -147,7 +147,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/publication/artemis/dog_duck_fox.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://haiminluo.github.io/publication/artemis/dog_duck_fox.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;interactive-ngi-animals-in-vr&#34;&gt;&lt;strong&gt;Interactive NGI Animals in VR&lt;/strong&gt;&lt;/h2&gt;
@@ -170,7 +170,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/publication/artemis/demo1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://haiminluo.github.io/publication/artemis/demo1.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 
 
@@ -191,7 +191,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/publication/artemis/demo2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://haiminluo.github.io/publication/artemis/demo2.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 
 
@@ -212,7 +212,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;http://localhost:1313/publication/artemis/demo3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://haiminluo.github.io/publication/artemis/demo3.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;/p&gt;
 &lt;!-- ## **Paper**

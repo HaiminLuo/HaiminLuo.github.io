@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CGHair: Compact Gaussian Hair Reconstruction with Card Clustering</title>
+  <meta name="description" content="Local snapshot of CGHair: Compact Gaussian Hair Reconstruction with Card Clustering." />
+  <style>
+    :root {
+      --bg: #f2f7fc;
+      --panel: rgba(255, 255, 255, 0.82);
+      --text: #14324d;
+      --muted: #617b94;
+      --line: #d7e4f0;
+      --soft: #e8f1fa;
+      --link: #1f5f91;
+      --accent: #2b7bbb;
+      --maxw: 1080px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+
+    .hero {
+      padding: 56px 0 28px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(43, 123, 187, 0.12);
+      border: 1px solid rgba(43, 123, 187, 0.14);
+      color: var(--text);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    h1 {
+      margin: 16px 0 0;
+      font-size: 48px;
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      margin-top: 18px;
+      font-size: 20px;
+      color: #334155;
+      max-width: 900px;
+    }
+
+    .authors,
+    .affiliations {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .authors .self {
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .button-row {
+      margin-top: 26px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .button-row a {
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: var(--soft);
+      color: var(--link);
+      font-weight: 600;
+      border: 1px solid rgba(31, 95, 145, 0.08);
+    }
+
+    .button-row a.primary {
+      background: #1f4f78;
+      color: #fff;
+    }
+
+    .button-row a:hover {
+      text-decoration: none;
+      filter: brightness(0.98);
+    }
+
+    .note {
+      margin-top: 14px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .card,
+    .figure,
+    .video-card {
+      margin-top: 28px;
+      border: 1px solid rgba(31, 95, 145, 0.08);
+      border-radius: 24px;
+      background: var(--panel);
+      box-shadow: 0 18px 40px rgba(20, 50, 77, 0.06);
+      padding: 24px;
+    }
+
+    .card h2,
+    .figure h2,
+    .video-card h2 {
+      margin: 0 0 12px;
+      font-size: 28px;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+    }
+
+    .stats {
+      margin-top: 28px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .stat {
+      border: 1px solid rgba(31, 95, 145, 0.08);
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.72);
+      padding: 20px;
+    }
+
+    .stat-value {
+      font-size: 38px;
+      line-height: 1;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .stat-label {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .figure img {
+      width: 100%;
+      height: auto;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .video-frame {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      border-radius: 18px;
+    }
+
+    .footer {
+      padding: 32px 0 44px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 720px) {
+      .container {
+        padding: 0 18px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .subtitle {
+        font-size: 18px;
+      }
+
+      .stats {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <span class="badge">CVPR 2026</span>
+      <h1>CGHair: Compact Gaussian Hair Reconstruction with Card Clustering</h1>
+      <p class="subtitle">High-fidelity hair reconstruction with 200x less memory through hierarchical card clustering and shared Gaussian textures.</p>
+      <div class="authors"><span class="self">Haimin Luo</span>, Srinjay Sarkar, Albert Mosella-Montoro, Francisco Vicente Carrasco, Fernando De la Torre</div>
+      <div class="affiliations">Carnegie Mellon University, ShanghaiTech University</div>
+      <div class="button-row">
+        <a class="primary" href="https://humansensinglab.github.io/CGHair/" target="_blank" rel="noreferrer">Original Project</a>
+        <a href="https://www.youtube.com/watch?v=iRa7C-ApFyM" target="_blank" rel="noreferrer">Video</a>
+        <a href="cite.bib" target="_blank" rel="noreferrer">Cite</a>
+      </div>
+      <p class="note">This local page snapshots materials from the original CGHair project page on April 4, 2026. The original page's paper PDF link was unavailable at capture time.</p>
+    </section>
+
+    <section class="figure">
+      <h2>Teaser</h2>
+      <img src="featured.png" alt="CGHair teaser overview" />
+    </section>
+
+    <section class="card">
+      <h2>Overview</h2>
+      <p>We present a compact pipeline for high-fidelity hair reconstruction from multi-view images. While recent 3D Gaussian Splatting methods achieve realistic results, they often require millions of primitives, leading to high storage and rendering costs.</p>
+      <p>Observing that hair exhibits structural and visual similarities across a hairstyle, CGHair clusters strands into representative hair cards and groups these into shared texture codebooks. This structured representation integrates with Gaussian rendering to reduce reconstruction time and storage while maintaining comparable visual quality.</p>
+      <p>CGHair also introduces a generative-prior-accelerated method for reconstructing the initial strand geometry from images. The project reports a 4x reduction in strand reconstruction time and over 200x lower memory footprint.</p>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-value">200x</div>
+          <div class="stat-label">Lower memory footprint through shared Gaussian texture codebooks.</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">4x</div>
+          <div class="stat-label">Faster strand reconstruction with the generative prior pipeline.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="figure">
+      <h2>Pipeline Overview</h2>
+      <img src="pipeline_out.png" alt="CGHair pipeline overview" />
+    </section>
+
+    <section class="video-card">
+      <h2>Video Presentation</h2>
+      <iframe class="video-frame" src="https://www.youtube.com/embed/iRa7C-ApFyM" title="CGHair video presentation" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <div class="footer">
+      &copy; 2026 Haimin Luo. Materials adapted from the original CGHair project page.
+    </div>
+  </main>
+</body>
+</html>

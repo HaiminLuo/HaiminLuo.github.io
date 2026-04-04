@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Artemis is a neural modeling and rendering pipeline for articulated neural pets with appearance and motion synthesis, enabling real-time animation, motion control, and photorealistic rendering of furry animals.">
+  <meta name="keywords" content="Artemis, neural pets, digital animals, neural rendering, motion synthesis">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artemis: Articulated Neural Pets with Appearance and Motion Synthesis</title>
+  <link rel="canonical" href="https://haiminluo.github.io/artemis/" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Artemis: Articulated Neural Pets with Appearance and Motion Synthesis" />
+  <meta property="og:description" content="Artemis is a neural modeling and rendering pipeline for articulated neural pets with appearance and motion synthesis, enabling real-time animation, motion control, and photorealistic rendering of furry animals." />
+  <meta property="og:url" content="https://haiminluo.github.io/artemis/" />
+  <meta property="og:image" content="https://haiminluo.github.io/publication/artemis/featured1.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Artemis: Articulated Neural Pets with Appearance and Motion Synthesis" />
+  <meta name="twitter:description" content="A neural modeling and rendering pipeline for articulated neural pets with appearance and motion synthesis." />
+  <meta name="twitter:image" content="https://haiminluo.github.io/publication/artemis/featured1.jpg" />
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+
+  <style>
+    .container.is-max-desktop {
+      max-width: 1400px !important;
+    }
+
+    .page-column {
+      width: 100%;
+      max-width: 1260px;
+      flex: none;
+    }
+
+    .publication-venue {
+      width: 100%;
+      text-align: center;
+      margin: 0.8rem auto 0;
+    }
+
+    .teaser-logo-strip {
+      margin: 0 auto 1.8rem;
+    }
+
+    .logo-strip {
+      margin: 0 auto;
+    }
+
+    .logo-strip td {
+      padding: 0 18px;
+      vertical-align: middle;
+    }
+
+    .logo-strip img {
+      display: block;
+      width: auto;
+      max-height: 62px;
+      margin: 0 auto;
+    }
+
+    .teaser-figure img {
+      display: block;
+      width: 100%;
+      max-width: 1220px;
+      margin: 0 auto;
+    }
+
+    .video-card video {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+      background: #000;
+    }
+
+    .video-stack {
+      display: grid;
+      gap: 26px;
+    }
+
+    .video-card {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .video-caption {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Artemis: Articulated Neural Pets with Appearance and Motion Synthesis</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://haiminluo.github.io/">Haimin Luo</a>,
+            </span>
+            <span class="author-block">Teng Xu,</span>
+            <span class="author-block">Yuheng Jiang,</span>
+            <span class="author-block">Chenglin Zhou,</span>
+            <span class="author-block">Qiwei Qiu,</span>
+            <span class="author-block">Yingliang Zhang,</span>
+            <span class="author-block">Wei Yang,</span>
+            <span class="author-block">Lan Xu,</span>
+            <span class="author-block">Jingyi Yu</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">ShanghaiTech University,</span>
+            <span class="author-block">Deemos Technology,</span>
+            <span class="author-block">DGene Digital Technology,</span>
+            <span class="author-block">Huazhong University of Science and Technology</span>
+          </div>
+
+          <div class="publication-venue is-size-5">
+            ACM Transactions on Graphics (Proc. of SIGGRAPH 2022)
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://dl.acm.org/doi/abs/10.1145/3528223.3530086"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="../publication/artemis/cite.bib"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-quote-right"></i>
+                  </span>
+                  <span>Cite</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/HaiminLuo/Artemis"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/HaiminLuo/Artemis"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-database"></i>
+                  </span>
+                  <span>Dataset</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=Asbt3BYcZMM"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="teaser-logo-strip">
+        <table class="logo-strip" border="0" align="center" width="100%" style="border-collapse: collapse; background-color: transparent;">
+          <tbody align="center">
+            <tr>
+              <td width="70"><a href="https://www.shanghaitech.edu.cn" target="_blank" rel="noreferrer"><img src="../publication/artemis/shanghaitech-red.png" alt="ShanghaiTech University"></a></td>
+              <td width="70"><a href="https://www.deemos.com/" target="_blank" rel="noreferrer"><img src="../publication/artemis/deemos.png" alt="Deemos Technology"></a></td>
+              <td width="70"><a href="https://www.dgene.com/" target="_blank" rel="noreferrer"><img src="../publication/artemis/dgene.png" alt="DGene Digital Technology"></a></td>
+              <td width="70"><a href="http://english.hust.edu.cn/" target="_blank" rel="noreferrer"><img src="../publication/artemis/HUST.png" alt="Huazhong University of Science and Technology"></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <figure class="teaser-figure">
+        <img src="../publication/artemis/featured1.jpg" alt="Artemis teaser">
+      </figure>
+      <h2 class="subtitle has-text-centered"></h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We, humans, are entering into a virtual era and indeed want to bring animals to the virtual world as companions.
+            Yet computer-generated furry animals remain limited by tedious offline rendering and lack practical interactive motion control.
+            ARTEMIS introduces a neural modeling and rendering pipeline for articulated neural pets with appearance and motion synthesis.
+            The system combines an efficient octree-based animal representation, volumetric rendering, a neural shading network,
+            multi-view animal motion capture, and neural character control, enabling real-time animation, photorealistic rendering,
+            and immersive interaction with virtual animals in VR.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/Asbt3BYcZMM"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Overview</h2>
+        <div class="container is-max-desktop">
+          <div class="hero-body">
+            <p style="text-align: center;"><img src="../publication/artemis/overview_v3-1.png" alt="Artemis overview" style="max-width:100%;"></p>
+            <h2 class="subtitle has-text-centered"></h2>
+          </div>
+        </div>
+
+        <div class="content has-text-justified">
+          <p>
+            Given multi-view RGBA images of traditionally modeled animals rendered in canonical space, ARTEMIS first extracts a sparse voxel grid
+            and allocates a corresponding feature look-up table together with an octree for efficient indexing.
+            The character is then posed to training poses using the rig of the traditional animal asset, followed by efficient volumetric rendering
+            to generate view-dependent appearance feature maps and coarse opacity maps.
+            A convolutional neural shading network decodes these maps into high-quality appearance and opacity images, while adversarial training
+            further enhances high-frequency details.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            We show synthesized RGBA results of different neural volumetric animals in representative motions.
+          </p>
+        </div>
+
+        <div class="video-stack">
+          <div class="video-card">
+            <video controls playsinline>
+              <source src="../publication/artemis/lion_cat_tiger.mp4" type="video/mp4">
+            </video>
+            <p class="video-caption">Lion, cat, and tiger.</p>
+          </div>
+          <div class="video-card">
+            <video controls playsinline>
+              <source src="../publication/artemis/wolf_panda_bear.mp4" type="video/mp4">
+            </video>
+            <p class="video-caption">Wolf, panda, and bear.</p>
+          </div>
+          <div class="video-card">
+            <video controls playsinline>
+              <source src="../publication/artemis/dog_duck_fox.mp4" type="video/mp4">
+            </video>
+            <p class="video-caption">Dog, duck, and fox.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Interactive NGI Animals in VR</h2>
+        <div class="content has-text-justified">
+          <p>
+            ARTEMIS also supports VR applications with multiple levels of interaction. Users can view neural pets from both third-person and
+            first-person perspectives, issue low-level commands such as jump, move, and sit, provide high-level destination guidance,
+            and interact with virtual animals that can follow, accompany, and explore their environment autonomously.
+          </p>
+        </div>
+
+        <div class="video-stack">
+          <div class="video-card">
+            <video controls playsinline>
+              <source src="../publication/artemis/demo1.mp4" type="video/mp4">
+            </video>
+            <p class="video-caption">Viewing and low-level interaction.</p>
+          </div>
+          <div class="video-card">
+            <video controls playsinline>
+              <source src="../publication/artemis/demo2.mp4" type="video/mp4">
+            </video>
+            <p class="video-caption">Commands and movement control.</p>
+          </div>
+          <div class="video-card">
+            <video controls playsinline>
+              <source src="../publication/artemis/demo3.mp4" type="video/mp4">
+            </video>
+            <p class="video-caption">Companion mode and free exploration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Acknowledgements</h2>
+        <div class="content has-text-justified">
+          <p>
+            The authors thank Junyu Zhou and Ya Gao from DGene Digital Technology Co., Ltd. for processing the CGI animal models and motion capture data.
+            We also thank Zhenxiao Yu and Heyang Li from ShanghaiTech University for producing supplementary video and figures.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{10.1145/3528223.3530086,
+  author = {Luo, Haimin and Xu, Teng and Jiang, Yuheng and Zhou, Chenglin and Qiu, Qiwei and Zhang, Yingliang and Yang, Wei and Xu, Lan and Yu, Jingyi},
+  title = {Artemis: Articulated Neural Pets with Appearance and Motion Synthesis},
+  year = {2022},
+  issue_date = {July 2022},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {41},
+  number = {4},
+  issn = {0730-0301},
+  url = {https://doi.org/10.1145/3528223.3530086},
+  doi = {10.1145/3528223.3530086},
+  journal = {ACM Trans. Graph.},
+  month = {jul},
+  articleno = {164},
+  numpages = {19},
+  keywords = {neural representation, dynamic scene modeling, novel view synthesis, neural rendering, neural volumetric animal, motion synthesis}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://dl.acm.org/doi/abs/10.1145/3528223.3530086" target="_blank" rel="noreferrer">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/HaiminLuo/Artemis" target="_blank" rel="noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is adapted from the GaussianHair project page template and uses media assets from
+            <a href="../publication/artemis/">the Artemis publication page</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
