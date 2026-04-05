@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="HairGPT is a strand-centric autoregressive framework for 3D realistic hairstyle synthesis with semantic scalp decomposition and hierarchical strand generation.">
+  <meta name="keywords" content="HairGPT, 3D hair, 3D generation, digital humans, neural rendering">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HairGPT: A Unified Autoregressive Framework for 3D Realistic Hairstyle Synthesis</title>
+  <link rel="icon" type="image/png" href="./icon1.png" />
+  <link rel="apple-touch-icon" type="image/png" href="./icon1.png" />
+  <link rel="canonical" href="https://haiminluo.github.io/hairgpt/" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="HairGPT: A Unified Autoregressive Framework for 3D Realistic Hairstyle Synthesis" />
+  <meta property="og:description" content="HairGPT is a strand-centric autoregressive framework for 3D realistic hairstyle synthesis with semantic scalp decomposition and hierarchical strand generation." />
+  <meta property="og:url" content="https://haiminluo.github.io/hairgpt/" />
+  <meta property="og:image" content="https://haiminluo.github.io/publication/hairgpt/teaser_crop.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="HairGPT: A Unified Autoregressive Framework for 3D Realistic Hairstyle Synthesis" />
+  <meta name="twitter:description" content="A strand-centric autoregressive framework for 3D realistic hairstyle synthesis." />
+  <meta name="twitter:image" content="https://haiminluo.github.io/publication/hairgpt/teaser_crop.png" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <style>
+    .container.is-max-desktop {
+      max-width: 1400px !important;
+    }
+
+    .project-header .hero-body {
+      padding-top: 2.6rem;
+      padding-bottom: 1rem;
+    }
+
+    .project-teaser .hero-body {
+      padding-top: 0.2rem;
+      padding-bottom: 0;
+    }
+
+    .page-column {
+      width: 100%;
+      max-width: 1260px;
+      flex: none;
+    }
+
+    .publication-venue {
+      margin: 1rem auto 0;
+      width: 100%;
+      color: #28417c;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .publication-title-stack {
+      width: 100%;
+      max-width: 1180px;
+      margin: 0 auto 0.35rem;
+      text-align: center;
+    }
+
+    .publication-title-icon {
+      width: 84px;
+      height: 84px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 14px;
+    }
+
+    .publication-title-stack .publication-title {
+      margin: 0 !important;
+      text-align: center;
+      line-height: 1.08;
+    }
+
+    .page-column .title.is-3 {
+      margin-bottom: 2.1rem !important;
+    }
+
+    .page-column > .title.is-3 + .content,
+    .page-column > .title.is-3 + .section-figure,
+    .page-column > .title.is-3 + .video-placeholder,
+    .page-column > .title.is-3 + .publication-video {
+      margin-top: 0.45rem;
+    }
+
+    .project-header .publication-authors {
+      line-height: 1.28;
+    }
+
+    .project-header .publication-links {
+      margin-top: 0.85rem;
+    }
+
+    .project-header .publication-links .button {
+      background: #444852;
+      border-color: #444852;
+      box-shadow: none;
+      height: 2.55em;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      font-weight: 600;
+    }
+
+    .project-header .publication-links .button:hover {
+      background: #3b3f47;
+      border-color: #3b3f47;
+    }
+
+    .project-teaser .teaser-figure img {
+      margin-top: -6px;
+    }
+
+    .teaser-figure img {
+      display: block;
+      width: 100%;
+      max-width: 1220px;
+      margin: 0 auto;
+    }
+
+    .section-figure img {
+      display: block;
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    .section-figure + .content {
+      margin-top: 1.35rem;
+    }
+
+    .video-placeholder {
+      width: 100%;
+      max-width: 1080px;
+      aspect-ratio: 16 / 9;
+      margin: 0 auto;
+      border-radius: 18px;
+      background: linear-gradient(180deg, #1f2430, #2a3140);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255, 255, 255, 0.92);
+      font-size: 1.25rem;
+      font-weight: 600;
+      box-shadow: 0 18px 36px rgba(22, 32, 55, 0.14);
+    }
+
+    .page-column {
+      position: relative;
+      margin-bottom: 2.4rem;
+      padding-bottom: 2.1rem;
+    }
+
+    .page-column::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 100%;
+      max-width: 1120px;
+      height: 1px;
+      transform: translateX(-50%);
+      background: rgba(29, 42, 68, 0.09);
+    }
+
+    .results-stack {
+      display: grid;
+      gap: 2rem;
+    }
+
+    .result-item {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .result-caption {
+      max-width: 1120px;
+      margin: 0 auto;
+      text-align: justify;
+      font-size: 1rem;
+      line-height: 1.65;
+      color: #2f3647;
+    }
+
+    @media (max-width: 768px) {
+      .project-header .hero-body {
+        padding-top: 2rem;
+        padding-bottom: 0.8rem;
+      }
+
+      .publication-title-icon {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 10px;
+      }
+
+      .publication-title-stack .publication-title {
+        text-align: center;
+      }
+
+    }
+  </style>
+</head>
+<body>
+
+<section class="hero project-header">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <div class="publication-title-stack">
+            <img src="./icon1.png" alt="HairGPT icon" class="publication-title-icon">
+            <h1 class="title is-1 publication-title">HairGPT: A Unified Autoregressive Framework for 3D Realistic Hairstyle Synthesis</h1>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://haiminluo.github.io/">Haimin Luo</a><sup>1,*</sup>,
+            </span>
+            <span class="author-block">
+              <a>Min Ouyang</a><sup>1,2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.xu-lan.com/">Lan Xu</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="http://www.yu-jingyi.com/cv/">Jingyi Yu</a><sup>1,&dagger;</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>ShanghaiTech University,</span>
+            <span class="author-block"><sup>2</sup>Deemos Technology</span>
+          </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>*</sup>Project leader</span>
+            <span class="author-block">&nbsp;|&nbsp;</span>
+            <span class="author-block"><sup>&dagger;</sup>Corresponding author</span>
+          </div>
+
+          <div class="publication-venue is-size-5">
+            Conditionally accepted by SIGGRAPH 2026 (Journal Track)
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="./"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="./"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://youtu.be/eIeG-doHk7I"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="./"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-globe"></i>
+                  </span>
+                  <span>Data</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="../publication/hairgpt/cite.bib"
+                   target="_blank" rel="noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-quote-right"></i>
+                  </span>
+                  <span>Cite</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser project-teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <figure class="teaser-figure">
+        <img src="../publication/hairgpt/teaser1.png" alt="HairGPT teaser">
+      </figure>
+      <h2 class="subtitle has-text-centered"></h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Hair is a rich visual and cultural signal, yet its digital modeling remains challenging due to the duality of fluidity and structure. 
+            Existing generative approaches largely rely on continuous diffusion fields, which entangle global topology with local texture and obscure the inherent semantic and structural organization of hairstyles. 
+            To address this, we propose HairGPT, a strand-centric framework that treats authentic strands as generative primitives and formulates 3D hair synthesis as a dual-decoupled autoregressive sequence modeling problem. 
+            Our method applies spatial decoupling across semantic scalp regions and structural decoupling along a hierarchical strand representation, progressing from global layout to fine-grained style. 
+            We further introduce a geometric tokenizer and region-aware semantic annotations to guide strand-level generation, enabling compositional editing, robust synthesis of rare or complex hairstyles, and adaptation to stylized domains. 
+            By aligning generative modeling with the cognitive workflow of human artists, HairGPT transforms hair generation from opaque texture synthesis into a transparent, structured, and semantically meaningful process. 
+            We demonstrate that this framework supports robust semantic conditioning and compositional editing, enabling the high-fidelity generation of rare, complex hairstyles and effective adaptation to stylized domains.
+          </p>
+        </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths page-column">
+          <h2 class="title is-3">Video</h2>
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/eIeG-doHk7I"
+                    title="HairGPT video"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media; picture-in-picture"
+                    allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths page-column">
+          <h2 class="title is-3">Overview</h2>
+          <div class="section-figure">
+            <img src="./pipeline.png" alt="HairGPT pipeline overview">
+          </div>
+          <div class="content has-text-justified">
+            <p>
+              The 3D hairstyle geometry is decomposed into a global density map, quantized by tokenizer <em>Q</em><sub>d</sub>, and local strand features.
+              Specifically, strand roots are encoded into 2 UV tokens.
+              The strand geometry is further decoupled into coarse shape and style residuals, which are discretized into 4 tokens via tokenizers
+              <em>Q</em><sub>c</sub> and <em>Q</em><sub>s</sub>.
+              These geometric codes are assembled into a hierarchical sequence and processed by a decoder-only Transformer.
+              After being concatenated and conditioned on text and image embeddings, the model autoregressively predicts the target hair tokens and is supervised with a cross-entropy loss.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Representative Results</h2>
+        <div class="results-stack">
+          <div class="result-item">
+            <div class="section-figure">
+              <img src="./img2hair.png" alt="HairGPT image-to-hair results">
+            </div>
+            <p class="result-caption">
+              <strong>Image-guided hairstyle synthesis comparison.</strong> HairGPT can effectively generate extremely high-frequency coils and complex hair topology following the image, especially for buns and ponytails. We visualize both the raw guide strands directly output by our model and the dense strands produced via a simple interpolation algorithm; note that this upsampling process is employed solely for visualization and is not the primary focus of this work.
+            </p>
+          </div>
+          <div class="result-item">
+            <div class="section-figure">
+              <img src="./text2hair.png" alt="HairGPT text-to-hair results">
+            </div>
+            <p class="result-caption">
+              Ablation of strand-level Coarse-Style Decoupling. The decoupling effectively enables the tokenizer to encode high-frequency details.
+            </p>
+          </div>
+          <div class="result-item">
+            <div class="section-figure">
+              <img src="./anim2hair.png" alt="HairGPT anim-to-hair results">
+            </div>
+            <p class="result-caption">
+              <strong>Cross-domain adaptation to stylized characters.</strong> Our framework adapts to 2D cartoon inputs via fine-tuning. It generates plausible 3D strand arrangements that faithfully respect the volume and flow of the original anime portraits.
+            </p>
+          </div>
+          <div class="result-item">
+            <div class="section-figure">
+              <img src="./avatar.png" alt="HairGPT avatar results">
+            </div>
+            <p class="result-caption">
+              <strong>Realistic Avatar Creation.</strong> Our model can collaboratively work with the 3D face synthesis model DreamFace to produce photorealistic avatars with unified visual aesthetics.
+            </p>
+          </div>
+          <div class="result-item">
+            <div class="section-figure">
+              <img src="./editing.png" alt="HairGPT editing results">
+            </div>
+            <p class="result-caption">
+              <strong>Editing.</strong> Our dual-decoupled representation and vision-language model naturally facilitates diverse editing applications, either image or text prompt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths page-column">
+        <h2 class="title is-3">Acknowledgements</h2>
+        <div class="content has-text-justified">
+          <p>
+            This work was supported in part by the National Natural Science Foundation of China under Grant W2431046, Central Guided Local Science and Technology Foundation of China YDZX20253100001001, and by MoE Key Lab of Intelligent Perception and Human-Machine Collaboration (ShanghaiTech University), the Shanghai Frontiers Science Center of Human-centered Artificial Intelligence. This work was also supported by the HPC Platform of ShanghaiTech University.
+          </p>
+          <p>
+            The authors would also like to thank Heng'an Zhou from ShanghaiTech University for his assistance with the supplementary video, and Zijun Zhao from Deemos Technology Co., Ltd. for helping process part of the raw hairstyle data.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{luo2026hairgpt,
+  title={HairGPT: A Unified Autoregressive Framework for 3D Realistic Hairstyle Synthesis},
+  author={Luo, Haimin and Ouyang, Min and Xu, Lan and Yu, Jingyi},
+  year={2026},
+  note={Conditionally accepted by SIGGRAPH 2026 (journal track)}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            &copy; 2026 Haimin Luo
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
