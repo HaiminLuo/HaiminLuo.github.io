@@ -506,13 +506,10 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Hair is a rich visual and cultural signal, yet its digital modeling remains challenging due to the duality of fluidity and structure. 
-            Existing generative approaches largely rely on continuous diffusion fields, which entangle global topology with local texture and obscure the inherent semantic and structural organization of hairstyles. 
-            To address this, we propose HairGPT, a strand-centric framework that treats authentic strands as generative primitives and formulates 3D hair synthesis as a dual-decoupled autoregressive sequence modeling problem. 
-            Our method applies spatial decoupling across semantic scalp regions and structural decoupling along a hierarchical strand representation, progressing from global layout to fine-grained style. 
-            We further introduce a geometric tokenizer and region-aware semantic annotations to guide strand-level generation, enabling compositional editing, robust synthesis of rare or complex hairstyles, and adaptation to stylized domains. 
-            By aligning generative modeling with the cognitive workflow of human artists, HairGPT transforms hair generation from opaque texture synthesis into a transparent, structured, and semantically meaningful process. 
-            We demonstrate that this framework supports robust semantic conditioning and compositional editing, enabling the high-fidelity generation of rare, complex hairstyles and effective adaptation to stylized domains.
+            Realistic hair generation remains difficult because hairstyles couple challenging global topology with high-frequency local detail. 
+            HairGPT addresses this problem with a strand-based generative pipeline that decomposes hair into a global density map and local strand geometry, then tokenizes both into a compact discrete representation. 
+            Generation proceeds over region-aware hierarchical sequences, allowing the model to predict structure and style progressively from text or image conditions. 
+            This design yields stronger control over topology, texture, and local edits, enabling high-fidelity synthesis of rare hairstyles as well as effective adaptation to stylized domains.
           </p>
         </div>
         </div>
@@ -542,15 +539,15 @@
               </p>
             </article>
             <article class="contribution-card">
-              <h3 class="contribution-card-title">2. Geometric tokenization for guide strands</h3>
+              <h3 class="contribution-card-title">2. Compact strand tokenizer for complex geometry</h3>
               <p>
-                A novel geometric tokenization scheme for guide strands, using multi-head product quantization to encode complex topological structures and high-frequency textures into a compact discrete vocabulary.
+                A guide-strand tokenizer built with multi-head product quantization, compressing complex topology and high-frequency texture into a compact discrete codebook.
               </p>
             </article>
             <article class="contribution-card">
-              <h3 class="contribution-card-title">3. Hierarchical strand language and training strategy</h3>
+              <h3 class="contribution-card-title">3. Region-aware hierarchy for stable generation</h3>
               <p>
-                A hierarchical strand language construction strategy with multi-stage training, organizing generation into region-aware sequences to improve structural coherence and support stable convergence.
+                A hierarchical strand language with multi-stage training, organizing synthesis into region-aware sequences that improve structural coherence and make training more stable.
               </p>
             </article>
           </div>
