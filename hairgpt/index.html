@@ -55,6 +55,11 @@
       max-width: 1400px !important;
     }
 
+    .project-intro-shell {
+      background: linear-gradient(180deg, #f8fbfe 0%, #f3f7fc 100%);
+      border-bottom: 1px solid rgba(40, 65, 124, 0.08);
+    }
+
     .project-header .hero-body {
       padding-top: 2.6rem;
       padding-bottom: 1rem;
@@ -62,7 +67,7 @@
 
     .project-teaser .hero-body {
       padding-top: 0.2rem;
-      padding-bottom: 0;
+      padding-bottom: 1.3rem;
     }
 
     .page-column {
@@ -100,6 +105,24 @@
       line-height: 1.08;
     }
 
+    .publication-tldr {
+      max-width: 1020px;
+      margin: 1rem auto 1.15rem;
+      color: rgba(47, 58, 83, 0.72);
+      font-size: 1rem;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .publication-tldr-label {
+      margin-right: 0.45rem;
+      color: rgba(40, 65, 124, 0.82);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
     .page-column .title.is-3 {
       margin-bottom: 2.1rem !important;
     }
@@ -134,6 +157,43 @@
       border-color: #3b3f47;
     }
 
+    .teaser-highlights {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+      width: 100%;
+      max-width: 1220px;
+      margin: 0 auto 1.1rem;
+    }
+
+    .teaser-highlight {
+      min-width: 0;
+      min-height: 102px;
+      padding: 0.85rem 1rem;
+      border: 1px solid rgba(40, 65, 124, 0.11);
+      border-radius: 0;
+      background: rgba(255, 255, 255, 0.92);
+      color: #334460;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.22;
+      text-align: center;
+      box-shadow: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .teaser-highlight-line {
+      display: block;
+      max-width: 100%;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
     .project-teaser .teaser-figure img {
       margin-top: -6px;
     }
@@ -143,6 +203,14 @@
       width: 100%;
       max-width: 1220px;
       margin: 0 auto;
+    }
+
+    .project-teaser .subtitle {
+      max-width: 1080px;
+      margin: 1.2rem auto 0;
+      color: rgba(47, 58, 83, 0.78);
+      font-size: 1.02rem;
+      line-height: 1.7;
     }
 
     .section-figure img {
@@ -192,12 +260,25 @@
 
     .results-stack {
       display: grid;
-      gap: 2rem;
+      gap: 2.2rem;
     }
 
     .result-item {
       display: grid;
-      gap: 1rem;
+      gap: 1.15rem;
+    }
+
+    .result-item + .result-item {
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(29, 42, 68, 0.08);
+    }
+
+    .result-item .section-figure {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0.45rem;
+      border: 1px solid rgba(40, 65, 124, 0.08);
+      background: rgba(248, 251, 254, 0.92);
     }
 
     .result-caption {
@@ -207,6 +288,36 @@
       font-size: 1rem;
       line-height: 1.65;
       color: #2f3647;
+    }
+
+    .contributions-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .contribution-card {
+      min-width: 0;
+      padding: 1.4rem 1.35rem 1.3rem;
+      border: 1px solid rgba(40, 65, 124, 0.08);
+      border-left: 3px solid rgba(43, 123, 187, 0.78);
+      background: rgba(246, 249, 253, 0.96);
+      text-align: left;
+    }
+
+    .contribution-card-title {
+      margin: 0 0 0.8rem;
+      color: #1b2c47;
+      font-size: 1.12rem;
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    .contribution-card p {
+      margin: 0;
+      color: #47566f;
+      font-size: 0.98rem;
+      line-height: 1.7;
     }
 
     @media (max-width: 768px) {
@@ -225,11 +336,43 @@
         text-align: center;
       }
 
+      .publication-tldr {
+        margin-top: 0.85rem;
+        margin-bottom: 1rem;
+        font-size: 0.95rem;
+      }
+
+      .teaser-highlights {
+        grid-template-columns: 1fr;
+        gap: 0.7rem;
+        margin-bottom: 0.95rem;
+      }
+
+      .teaser-highlight {
+        min-height: 88px;
+        padding: 0.75rem 0.85rem;
+        font-size: 0.94rem;
+      }
+
+      .teaser-highlight-line {
+        white-space: normal;
+      }
+
+      .contributions-grid {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+      }
+
+      .contribution-card {
+        padding: 1.15rem 1rem;
+      }
+
     }
   </style>
 </head>
 <body>
 
+<div class="project-intro-shell">
 <section class="hero project-header">
   <div class="hero-body">
     <div class="container is-max-desktop">
@@ -238,6 +381,10 @@
           <div class="publication-title-stack">
             <img src="./icon1.png" alt="HairGPT icon" class="publication-title-icon">
             <h1 class="title is-1 publication-title">HairGPT: A Unified Autoregressive Framework for 3D Realistic Hairstyle Synthesis</h1>
+          </div>
+          <div class="publication-tldr">
+            <span class="publication-tldr-label">TL;DR</span>
+            HairGPT introduces a paradigm shift toward strand-as-language modeling, reformulating 3D realistic hair generation as a dual-decoupled autoregressive process where strands are treated as the fundamental generative units.
           </div>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
@@ -329,13 +476,28 @@
 <section class="hero teaser project-teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
+      <div class="teaser-highlights">
+        <div class="teaser-highlight">
+          <span class="teaser-highlight-line">Semantic and artist-aligned</span>
+          <span class="teaser-highlight-line">formulation</span>
+        </div>
+        <div class="teaser-highlight">
+          <span class="teaser-highlight-line">Dual-decoupled structure</span>
+          <span class="teaser-highlight-line">and style modeling</span>
+        </div>
+        <div class="teaser-highlight">
+          <span class="teaser-highlight-line">Controllable synthesis, editing,</span>
+          <span class="teaser-highlight-line">and stylized adaptation</span>
+        </div>
+      </div>
       <figure class="teaser-figure">
         <img src="../publication/hairgpt/teaser1.png" alt="HairGPT teaser">
       </figure>
-      <h2 class="subtitle has-text-centered"></h2>
+      <h2 class="subtitle has-text-centered">Rather than modeling hair as an opaque continuous field, HairGPT progressively constructs hairstyles the way artists think about them: semantically organized, structurally decomposed, and generated strand by strand.</h2>
     </div>
   </div>
 </section>
+</div>
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -371,7 +533,33 @@
 
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths page-column">
-          <h2 class="title is-3">Overview</h2>
+          <h2 class="title is-3">Key Contributions</h2>
+          <div class="contributions-grid">
+            <article class="contribution-card">
+              <h3 class="contribution-card-title">1. Strand-as-language modeling for hair generation</h3>
+              <p>
+                A paradigm shift to strand-as-language modeling, reformulating 3D realistic hair generation as a dual-decoupled autoregressive problem and treating strands as the core generative units.
+              </p>
+            </article>
+            <article class="contribution-card">
+              <h3 class="contribution-card-title">2. Geometric tokenization for guide strands</h3>
+              <p>
+                A novel geometric tokenization scheme for guide strands, using multi-head product quantization to encode complex topological structures and high-frequency textures into a compact discrete vocabulary.
+              </p>
+            </article>
+            <article class="contribution-card">
+              <h3 class="contribution-card-title">3. Hierarchical strand language and training strategy</h3>
+              <p>
+                A hierarchical strand language construction strategy with multi-stage training, organizing generation into region-aware sequences to improve structural coherence and support stable convergence.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths page-column">
+          <h2 class="title is-3">Pipeline Overview</h2>
           <div class="section-figure">
             <img src="./pipeline.png" alt="HairGPT pipeline overview">
           </div>
@@ -405,7 +593,7 @@
               <img src="./text2hair.png" alt="HairGPT text-to-hair results">
             </div>
             <p class="result-caption">
-              Ablation of strand-level Coarse-Style Decoupling. The decoupling effectively enables the tokenizer to encode high-frequency details.
+              <strong>Text guided hairstyle synthesis comparison.</strong> Our HairGPT produces 3D hairstyles that adhere to fine-grained semantic instructions.
             </p>
           </div>
           <div class="result-item">
